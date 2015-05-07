@@ -1,0 +1,106 @@
+08:04:17 - Ultimo SQL: 
+Este host não é conhecido
+   em System.Net.Dns.GetAddrInfo(String name)
+   em System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   em System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 182
+
+08:04:55 - Ultimo SQL: 
+Este host não é conhecido
+   em System.Net.Dns.GetAddrInfo(String name)
+   em System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   em System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 182
+
+10:28:43 - Ultimo SQL: 
+Este host não é conhecido
+   em System.Net.Dns.GetAddrInfo(String name)
+   em System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   em System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 182
+
+10:29:18 - Ultimo SQL: 
+Este host não é conhecido
+   em System.Net.Dns.GetAddrInfo(String name)
+   em System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   em System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e)
+
+10:50:36 - Ultimo SQL: 
+ Usuarios !
+
+
+03:23:47 - Ultimo SQL: 
+Variável de objeto ou variável com bloco não definida.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container..ctor(Object Instance)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em WinASS.Filiais.GuardaDadosFiliais() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Filiais.vb:linha 1035
+
+03:32:45 - Ultimo SQL: 
+Variável de objeto ou variável com bloco não definida.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container..ctor(Object Instance)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase, CallType CallType)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSetComplex(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase)
+   em WinASS.Filiais.cbEstado_SelectedIndexChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Filiais.vb:linha 1116
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Filiais.Filiais_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Filiais.vb:linha 907
+
+03:33:14 - Ultimo SQL: 
+InvalidArgument=Value '1' não é um valor válido para 'SelectedIndex'.
+Nome do parâmetro: SelectedIndex
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Filiais.cbEstado_SelectedIndexChanged(Object sender, EventArgs e)
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Filiais.Filiais_Load(Object sender, EventArgs e)
+
+03:33:35 - Ultimo SQL: 
+InvalidArgument=Value '1' não é um valor válido para 'SelectedIndex'.
+Nome do parâmetro: SelectedIndex
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Filiais.cbEstado_SelectedIndexChanged(Object sender, EventArgs e)
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Filiais.Filiais_Load(Object sender, EventArgs e)
+
+03:47:14 - Ultimo SQL: SELECT * FROM C_Cidades WHERE CodigoCidade = '203'
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Cidades_Implem.ExcluirCidade()
+
+04:52:27 - Ultimo SQL: SELECT Codigo, CAST(Nome AS VARCHAR)+' '+CAST(Codigo AS VARCHAR(3))AS Setor FROM C_Setores WHERE isnull(Data_Hora_Exclusao,'') = '' ORDER BY Nome 
+Invalid column name 'Data_Hora_Exclusao'.
+
+
+04:56:05 - Ultimo SQL:  SELECT Codigo=cast(Codigo as varchar),    Nome  FROM C_Setores  WHERE DataExclusao is null  ORDER BY Nome   
+Invalid column name 'DataExclusao'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.Setores_Implem.MostraTabelaSetores(DataGridView& pObjTabela, String pSQL) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Setores_Implem.vb:linha 353
+
+04:56:06 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Setores.PreencheCampoPesquisa() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Setores.vb:linha 914
+   em WinASS.Setores.AtualizaSetores() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Setores.vb:linha 905
+   em WinASS.Setores.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Setores.vb:linha 1044
+   em WinASS.Setores.Setores_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Setores.vb:linha 633
+

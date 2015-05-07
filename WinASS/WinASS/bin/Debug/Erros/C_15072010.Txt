@@ -1,0 +1,658 @@
+08:56:40 - Ultimo SQL: 
+Não foi possível localizar o arquivo 'D:\VB.NET2005\WinASS\WinASS\bin\Debug\Menu.xml'.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   em System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   em System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   em System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   em System.Threading.CompressedStack.runTryCode(Object userData)
+   em System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   em System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   em System.Xml.XmlTextReaderImpl.OpenUrl()
+   em System.Xml.XmlTextReaderImpl.Read()
+   em System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   em System.Xml.XmlDocument.Load(XmlReader reader)
+   em System.Xml.XmlDocument.Load(String filename)
+   em WinASS.Principal.CreateMenu() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 440
+   em WinASS.Principal.AtualizaDadosUsuario() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 256
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 221
+
+08:57:02 - Ultimo SQL: 
+Não foi possível localizar o arquivo 'D:\VB.NET2005\WinASS\WinASS\bin\Debug\Menu.xml'.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   em System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   em System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   em System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   em System.Threading.CompressedStack.runTryCode(Object userData)
+   em System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   em System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   em System.Xml.XmlTextReaderImpl.OpenUrl()
+   em System.Xml.XmlTextReaderImpl.Read()
+   em System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   em System.Xml.XmlDocument.Load(XmlReader reader)
+   em System.Xml.XmlDocument.Load(String filename)
+   em WinASS.Principal.CreateMenu() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 440
+   em WinASS.Principal.AtualizaDadosUsuario() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 256
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 221
+
+09:00:00 - Ultimo SQL: 
+Não foi possível localizar o arquivo 'D:\VB.NET2005\WinASS\WinASS\bin\Debug\Menu.xml'.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   em System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   em System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   em System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   em System.Threading.CompressedStack.runTryCode(Object userData)
+   em System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   em System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   em System.Xml.XmlTextReaderImpl.OpenUrl()
+   em System.Xml.XmlTextReaderImpl.Read()
+   em System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   em System.Xml.XmlDocument.Load(XmlReader reader)
+   em System.Xml.XmlDocument.Load(String filename)
+   em WinASS.Principal.CreateMenu() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 440
+   em WinASS.Principal.AtualizaDadosUsuario() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 256
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 221
+
+09:03:20 - Ultimo SQL: 
+Não foi possível localizar o arquivo 'D:\VB.NET2005\WinASS\WinASS\bin\Debug\Menu.xml'.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   em System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   em System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   em System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   em System.Threading.CompressedStack.runTryCode(Object userData)
+   em System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   em System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   em System.Xml.XmlTextReaderImpl.OpenUrl()
+   em System.Xml.XmlTextReaderImpl.Read()
+   em System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   em System.Xml.XmlDocument.Load(XmlReader reader)
+   em System.Xml.XmlDocument.Load(String filename)
+   em WinASS.Principal.CreateMenu() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 440
+   em WinASS.Principal.AtualizaDadosUsuario() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 256
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 221
+
+09:07:28 - Ultimo SQL: 
+Não foi possível localizar o arquivo 'D:\VB.NET2005\WinASS\WinASS\bin\Debug\Menu.xml'.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   em System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   em System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   em System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   em System.Threading.CompressedStack.runTryCode(Object userData)
+   em System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   em System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   em System.Xml.XmlTextReaderImpl.OpenUrl()
+   em System.Xml.XmlTextReaderImpl.Read()
+   em System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   em System.Xml.XmlDocument.Load(XmlReader reader)
+   em System.Xml.XmlDocument.Load(String filename)
+   em WinASS.Principal.CreateMenu() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 440
+   em WinASS.Principal.AtualizaDadosUsuario() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 256
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 221
+
+09:18:45 - Ultimo SQL:  SELECT CodigoUsuario,  CAST(Nome AS VARCHAR) Nome  FROM C_Usuarios  WHERE CodigoUsuario is not null  ORDER BY Nome 
+Invalid column name 'CodigoUsuario'.
+Invalid column name 'CodigoUsuario'.
+
+
+09:27:48 - Ultimo SQL: SELECT * FROM Parametros  
+Invalid object name 'Parametros'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em WinASS.Parametros_Implem.AlterarParametro() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 440
+
+09:27:55 - Ultimo SQL: SELECT * FROM Parametros  
+Invalid object name 'Parametros'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em WinASS.Parametros_Implem.AlterarParametro() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 440
+
+09:31:04 - Ultimo SQL: SELECT * FROM Parametros  
+Invalid object name 'Parametros'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em WinASS.Parametros_Implem.BuscarParametro() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 366
+
+09:59:21 - Ultimo SQL:  SELECT Codigo=cast(Codigo as varchar),    Nome  FROM C_Empresas  WHERE isnull(DataExclusao,'') = ''  ORDER BY Nome   
+Invalid column name 'DataExclusao'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.Empresas_Implem.MostraTabelaEmpresas(DataGridView& pObjTabela, String pSQL) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Empresas_Implem.vb:linha 354
+
+09:59:23 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Empresas.PreencheCampoPesquisa() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Empresas.vb:linha 914
+   em WinASS.Empresas.AtualizaEmpresas() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Empresas.vb:linha 905
+   em WinASS.Empresas.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Empresas.vb:linha 1046
+   em WinASS.Empresas.Empresas_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Empresas.vb:linha 633
+
+09:59:43 - Ultimo SQL:  SELECT Codigo=cast(Codigo as varchar),    Nome  FROM C_Empresas  WHERE isnull(Data_Hora_Exclusao,'') = ''  ORDER BY Nome   
+Invalid column name 'Data_Hora_Exclusao'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.Empresas_Implem.MostraTabelaEmpresas(DataGridView& pObjTabela, String pSQL) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Empresas_Implem.vb:linha 354
+
+09:59:45 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Empresas.PreencheCampoPesquisa() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Empresas.vb:linha 914
+   em WinASS.Empresas.AtualizaEmpresas() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Empresas.vb:linha 905
+   em WinASS.Empresas.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Empresas.vb:linha 1046
+   em WinASS.Empresas.Empresas_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Empresas.vb:linha 633
+
+10:03:34 - Ultimo SQL: SELECT * FROM C_Usuarios WHERE Empresa='3'
+Invalid column name 'Empresa'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em WinASS.Empresas_Implem.VerificaDependenciasEmpresa() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Empresas_Implem.vb:linha 265
+
+10:04:14 - Ultimo SQL: SELECT * FROM C_Usuarios WHERE Empresa='3'
+Invalid column name 'Empresa'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em WinASS.Empresas_Implem.VerificaDependenciasEmpresa() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Empresas_Implem.vb:linha 265
+
+10:57:53 - Ultimo SQL: 
+InvalidArgument=Value '0' não é um valor válido para 'SelectedIndex'.
+Nome do parâmetro: SelectedIndex
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Filiais.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Filiais.vb:linha 1452
+   em WinASS.Filiais.Filiais_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Filiais.vb:linha 1002
+
+10:59:36 - Ultimo SQL: 
+InvalidArgument=Value '0' não é um valor válido para 'SelectedIndex'.
+Nome do parâmetro: SelectedIndex
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Filiais.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Filiais.vb:linha 1452
+   em WinASS.Filiais.Filiais_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Filiais.vb:linha 1002
+
+11:00:00 - Ultimo SQL: 
+InvalidArgument=Value '0' não é um valor válido para 'SelectedIndex'.
+Nome do parâmetro: SelectedIndex
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Filiais.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Filiais.vb:linha 1452
+   em WinASS.Filiais.Filiais_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Filiais.vb:linha 1002
+
+11:00:47 - Ultimo SQL: SELECT Id_Uf, Sigla FROM Ufs ORDER BY Sigla
+Invalid object name 'Ufs'.
+
+
+11:06:01 - Ultimo SQL: 
+InvalidArgument=Value '0' não é um valor válido para 'SelectedIndex'.
+Nome do parâmetro: SelectedIndex
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Filiais.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Filiais.vb:linha 1469
+   em WinASS.Filiais.Filiais_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Filiais.vb:linha 1018
+
+11:15:31 - Ultimo SQL: SELECT CodigoCidade, NomeCidade FROM Cidades C  WHERE (SELECT U.SiglaEstado FROM C_Estados U WHERE U.SiglaEstado = C.SiglaEstado) ='' ORDER BY NomeCidade
+Invalid object name 'Cidades'.
+
+
+11:16:28 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:16:31 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:18:17 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:18:34 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:18:35 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:18:36 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:18:42 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:18:49 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:18:52 - Ultimo SQL: 
+A conversão do tipo 'DBNull' no tipo 'String' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   em WinASS.Filiais.dtgFiliais_MouseMove(Object sender, MouseEventArgs e)
+
+11:20:52 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:20:54 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:20:54 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:20:55 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:20:55 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:20:59 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:22:58 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:23:42 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroFiliais_Implem->BuscarFilial()
+
+11:23:45 - Ultimo SQL: SELECT * FROM C_Filiais  WHERE  CodigoEmpresa='3' AND CodigoFilial='1'
+CodigoEstado
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Filiais_Implem.BuscarFilial()
+
+11:31:56 - Ultimo SQL: SELECT * FROM C_Filiais  WHERE  CodigoEmpresa='3' AND CodigoFilial='1'
+NumeroRegistro
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Filiais_Implem.BuscarFilial()
+
+11:44:51 - Ultimo SQL: 
+A conversão da seqüência de caracteres 'RS' no tipo 'Integer' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   em WinASS.Filiais.GuardaDadosFiliais() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Filiais.vb:linha 1145
+
+11:44:53 - Ultimo SQL: 
+A conversão da seqüência de caracteres 'RS' no tipo 'Integer' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   em WinASS.Filiais.GuardaDadosFiliais() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Filiais.vb:linha 1145
+
+11:55:06 - Ultimo SQL: 
+A conversão da seqüência de caracteres 'RS' no tipo 'Integer' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(Object Value)
+   em WinASS.Filiais.GuardaDadosFiliais()
+
+11:55:08 - Ultimo SQL: INSERT INTO C_Filiais (CodigoEmpresa,        CodigoFilial,                       CNPJ,                       InscricaoEstadual,                       NomeFilial,                       Endereco,                       Complemento,                       Bairro,                      CodigoCidade,                       CEP,                      Telefone,                      Fax                         ) VALUES (  '3',     '0',     '91570937000158',   Null,   'MATRIZ',     'RUA',   'MATRIZ',   'LANGUIRU',     '4242',   Null, Null) 
+There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+   em WinASS.Filiais_Implem.IncluirFilial()
+
+11:56:48 - Ultimo SQL:  SELECT isnull(max(cast(CodigoFilial as integer)),0)+1 CodigoFilial  FROM C_Filiais WHERE isnumeric(CodigoFilial)<>0 
+ExecuteReader requer que o comando tenha uma transação quando a conexão atribuída ao comando estiver em uma transação local pendente. A propriedade Transaction do comando não foi inicializada.
+   em System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em WinASS.Filiais_Implem.IncluirFilial()
+
+11:58:26 - Ultimo SQL: INSERT INTO C_Filiais (CodigoEmpresa,        CodigoFilial,                       CNPJ,                       InscricaoEstadual,                       NomeFilial,                       Endereco,                       Complemento,                       Bairro,                      CodigoCidade,                       CEP,                      Telefone,                      Fax                         ) VALUES (  '3',     '1',     '91570937000158',   Null,   'MATRIZ',     'RUA',   'MATRIZ',   'LANGUIRU',     '4242',   '95890-000', '(51) 3762-0000') 
+There are more columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+   em WinASS.Filiais_Implem.IncluirFilial()
+
+01:17:17 - Ultimo SQL: SELECT * FROM C_Filiais  WHERE  CodigoEmpresa='3' AND CodigoFilial='1'
+SiglaEstado
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Filiais_Implem.BuscarFilial()
+
+01:17:18 - Ultimo SQL: SELECT * FROM C_Filiais  WHERE  CodigoEmpresa='3' AND CodigoFilial='1'
+SiglaEstado
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Filiais_Implem.BuscarFilial()
+
+02:10:20 - Ultimo SQL:  SELECT Id_Usuario,  CAST(Nome AS VARCHAR) Nome  FROM C_Cidades  WHERE isnull(Data_Hora_Exclusao,'') = ''  ORDER BY Nome 
+Invalid column name 'Id_Usuario'.
+Invalid column name 'Nome'.
+
+
+02:10:23 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Cidades_Implem.BuscarCidade() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades_Implem.vb:linha 78
+   em WinASS.Cidades.dtgCidades_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1042
+
+02:10:24 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Cidades_Implem.BuscarCidade() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades_Implem.vb:linha 78
+   em WinASS.Cidades.dtgCidades_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1042
+
+02:10:25 - Ultimo SQL: 
+Erro de sintaxe: operando ausente depois do operador 'Cidade'.
+   em System.Data.ExpressionParser.Parse()
+   em System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   em System.Data.DataView..ctor(DataTable table, String RowFilter, String Sort, DataViewRowState RowState)
+   em WinASS.Cidades.FazFiltro() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 979
+   em WinASS.Cidades.cbCidadesPesquisaEstado_SelectedIndexChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 958
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Cidades.PreencheCampoPesquisa() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 949
+   em WinASS.Cidades.AtualizaCidades() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 933
+   em WinASS.Cidades.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1074
+   em WinASS.Cidades.Cidades_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 668
+
+02:10:25 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Cidades_Implem.BuscarCidade() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades_Implem.vb:linha 78
+   em WinASS.Cidades.dtgCidades_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1042
+
+02:10:26 - Ultimo SQL: 
+A conversão do tipo 'Bitmap' no tipo 'String' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   em WinASS.Cidades.dtgCidades_MouseMove(Object sender, MouseEventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1003
+
+02:10:27 - Ultimo SQL: 
+A conversão do tipo 'Bitmap' no tipo 'String' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   em WinASS.Cidades.dtgCidades_MouseMove(Object sender, MouseEventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1003
+
+02:10:28 - Ultimo SQL: 
+A conversão do tipo 'Bitmap' no tipo 'String' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   em WinASS.Cidades.dtgCidades_MouseMove(Object sender, MouseEventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1003
+
+02:10:29 - Ultimo SQL: 
+A conversão do tipo 'Bitmap' no tipo 'String' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   em WinASS.Cidades.dtgCidades_MouseMove(Object sender, MouseEventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1003
+
+02:10:30 - Ultimo SQL: 
+A conversão do tipo 'Bitmap' no tipo 'String' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   em WinASS.Cidades.dtgCidades_MouseMove(Object sender, MouseEventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1003
+
+02:10:32 - Ultimo SQL: 
+A conversão do tipo 'Bitmap' no tipo 'String' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToString(Object Value)
+   em WinASS.Cidades.dtgCidades_MouseMove(Object sender, MouseEventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1003
+
+02:12:06 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Cidades_Implem.BuscarCidade() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades_Implem.vb:linha 78
+   em WinASS.Cidades.dtgCidades_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1041
+
+02:12:10 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Cidades_Implem.BuscarCidade() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades_Implem.vb:linha 78
+   em WinASS.Cidades.dtgCidades_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1041
+
+02:12:10 - Ultimo SQL: 
+Erro de sintaxe: operando ausente depois do operador 'Cidade'.
+   em System.Data.ExpressionParser.Parse()
+   em System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   em System.Data.DataView..ctor(DataTable table, String RowFilter, String Sort, DataViewRowState RowState)
+   em WinASS.Cidades.FazFiltro() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 978
+   em WinASS.Cidades.cbCidadesPesquisaEstado_SelectedIndexChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 957
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Cidades.PreencheCampoPesquisa() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 948
+   em WinASS.Cidades.AtualizaCidades() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 932
+   em WinASS.Cidades.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1073
+   em WinASS.Cidades.Cidades_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 667
+
+02:12:11 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Cidades_Implem.BuscarCidade() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades_Implem.vb:linha 78
+   em WinASS.Cidades.dtgCidades_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1041
+
+02:12:16 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Cidades_Implem.BuscarCidade() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades_Implem.vb:linha 78
+   em WinASS.Cidades.dtgCidades_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1041
+
+02:12:29 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Cidades_Implem.BuscarCidade() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades_Implem.vb:linha 78
+   em WinASS.Cidades.dtgCidades_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1041
+
+02:12:36 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Cidades_Implem.BuscarCidade() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades_Implem.vb:linha 78
+   em WinASS.Cidades.dtgCidades_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Cidades.vb:linha 1041
+
+02:13:34 - Ultimo SQL: 
+Erro de sintaxe: operando ausente depois do operador 'Cidade'.
+   em System.Data.ExpressionParser.Parse()
+   em System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   em System.Data.DataView..ctor(DataTable table, String RowFilter, String Sort, DataViewRowState RowState)
+   em WinASS.Cidades.FazFiltro()
+   em WinASS.Cidades.cbCidadesPesquisaEstado_SelectedIndexChanged(Object sender, EventArgs e)
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Cidades.PreencheCampoPesquisa()
+   em WinASS.Cidades.AtualizaCidades()
+   em WinASS.Cidades.LimpaTela(Boolean wNovoRegistro)
+   em WinASS.Cidades.Cidades_Load(Object sender, EventArgs e)
+
+02:16:04 - Ultimo SQL: 
+Erro de sintaxe: operando ausente depois do operador 'Cidade'.
+   em System.Data.ExpressionParser.Parse()
+   em System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   em System.Data.DataView..ctor(DataTable table, String RowFilter, String Sort, DataViewRowState RowState)
+   em WinASS.Cidades.FazFiltro()
+   em WinASS.Cidades.cbCidadesPesquisaEstado_SelectedIndexChanged(Object sender, EventArgs e)
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Cidades.PreencheCampoPesquisa()
+   em WinASS.Cidades.AtualizaCidades()
+   em WinASS.Cidades.LimpaTela(Boolean wNovoRegistro)
+   em WinASS.Cidades.Cidades_Load(Object sender, EventArgs e)
+
+03:55:40 - Ultimo SQL: 
+A conversão da seqüência de caracteres 'AC' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Estados_Implem.BuscarEstado() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados_Implem.vb:linha 69
+   em WinASS.Estados.dtgEstados_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados.vb:linha 1005
+
+03:55:43 - Ultimo SQL: 
+A conversão da seqüência de caracteres 'AC' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Estados_Implem.BuscarEstado() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados_Implem.vb:linha 69
+   em WinASS.Estados.dtgEstados_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados.vb:linha 1005
+
+03:55:43 - Ultimo SQL: 
+A conversão da seqüência de caracteres 'AC' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Estados_Implem.BuscarEstado() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados_Implem.vb:linha 69
+   em WinASS.Estados.dtgEstados_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados.vb:linha 1005
+
+03:55:44 - Ultimo SQL: 
+A conversão da seqüência de caracteres 'AC' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Estados_Implem.BuscarEstado() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados_Implem.vb:linha 69
+   em WinASS.Estados.dtgEstados_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados.vb:linha 1005
+
+03:55:44 - Ultimo SQL: 
+A conversão da seqüência de caracteres 'AC' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Estados_Implem.BuscarEstado() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados_Implem.vb:linha 69
+   em WinASS.Estados.dtgEstados_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados.vb:linha 1005
+
+03:55:46 - Ultimo SQL: 
+A conversão da seqüência de caracteres 'AL' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Estados_Implem.BuscarEstado() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados_Implem.vb:linha 69
+   em WinASS.Estados.dtgEstados_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados.vb:linha 1005
+
+03:56:13 - Ultimo SQL: SELECT * FROM C_Estados WHERE SiglaEstado = 'AC'
+NomeEstado
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Estados_Implem.BuscarEstado() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados_Implem.vb:linha 83
+
+03:56:17 - Ultimo SQL: SELECT * FROM C_Estados WHERE SiglaEstado = 'AC'
+NomeEstado
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Estados_Implem.BuscarEstado() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados_Implem.vb:linha 83
+
+03:56:18 - Ultimo SQL: SELECT * FROM C_Estados WHERE SiglaEstado = 'AC'
+NomeEstado
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Estados_Implem.BuscarEstado() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados_Implem.vb:linha 83
+
+03:56:18 - Ultimo SQL: SELECT * FROM C_Estados WHERE SiglaEstado = 'AC'
+NomeEstado
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Estados_Implem.BuscarEstado() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados_Implem.vb:linha 83
+
+03:56:19 - Ultimo SQL: SELECT * FROM C_Estados WHERE SiglaEstado = 'AC'
+NomeEstado
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Estados_Implem.BuscarEstado() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados_Implem.vb:linha 83
+
+05:09:11 - Ultimo SQL: SELECT * FROM C_Animals WHERE Codigo='2'
+Invalid object name 'C_Animals'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em WinASS.Animais_Implem.AlterarAnimal() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Animais_Implem.vb:linha 202
+

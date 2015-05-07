@@ -1,0 +1,36 @@
+09:10:38 - Ultimo SQL: SELECT Codigo, Nome FROM Ass_Prefeituras P  WHERE (SELECT U.SiglaEstado FROM C_Estados U WHERE U.SiglaEstado = P.Sigla_Estado AND isnull(U.Data_Hora_Exclusao,'') = '' ) ='' AND isnull(C.Data_Hora_Exclusao,'') = ''  ORDER BY Nome
+Nome de coluna 'Sigla_Estado' inválido.
+O identificador de várias partes "C.Data_Hora_Exclusao" não pôde ser associado.
+
+
+09:10:42 - Ultimo SQL: SELECT Codigo, Nome FROM Ass_Prefeituras P  WHERE (SELECT U.SiglaEstado FROM C_Estados U WHERE U.SiglaEstado = P.Sigla_Estado AND isnull(U.Data_Hora_Exclusao,'') = '' ) ='' AND isnull(C.Data_Hora_Exclusao,'') = ''  ORDER BY Nome
+Nome de coluna 'Sigla_Estado' inválido.
+O identificador de várias partes "C.Data_Hora_Exclusao" não pôde ser associado.
+
+
+09:10:50 - Ultimo SQL: SELECT Codigo, Nome FROM Ass_Prefeituras P  WHERE (SELECT U.SiglaEstado FROM C_Estados U WHERE U.SiglaEstado = P.Sigla_Estado AND isnull(U.Data_Hora_Exclusao,'') = '' ) ='RS' AND isnull(C.Data_Hora_Exclusao,'') = ''  ORDER BY Nome
+Nome de coluna 'Sigla_Estado' inválido.
+O identificador de várias partes "C.Data_Hora_Exclusao" não pôde ser associado.
+
+
+09:11:36 - Ultimo SQL: SELECT Codigo, Nome FROM Ass_Prefeituras P  WHERE (SELECT U.SiglaEstado FROM C_Estados U WHERE U.SiglaEstado = P.Sigla_Estado AND isnull(U.Data_Hora_Exclusao,'') = '' ) ='' AND isnull(C.Data_Hora_Exclusao,'') = ''  ORDER BY Nome
+Nome de coluna 'Sigla_Estado' inválido.
+O identificador de várias partes "C.Data_Hora_Exclusao" não pôde ser associado.
+
+
+09:12:38 - Ultimo SQL: SELECT Codigo, Nome FROM Ass_Prefeituras P  WHERE (SELECT U.SiglaEstado FROM C_Estados U WHERE U.SiglaEstado = P.Sigla_Estado AND isnull(U.Data_Hora_Exclusao,'') = '' ) ='' AND isnull(C.Data_Hora_Exclusao,'') = ''  ORDER BY Nome
+O identificador de várias partes "C.Data_Hora_Exclusao" não pôde ser associado.
+
+
+09:12:50 - Ultimo SQL: SELECT Codigo, Nome FROM Ass_Prefeituras P  WHERE (SELECT U.SiglaEstado FROM C_Estados U WHERE U.SiglaEstado = P.Sigla_Estado AND isnull(U.Data_Hora_Exclusao,'') = '' ) ='' AND isnull(C.Data_Hora_Exclusao,'') = ''  ORDER BY Nome
+O identificador de várias partes "C.Data_Hora_Exclusao" não pôde ser associado.
+
+
+09:36:28 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroAssociados_Implem->BuscarAssociado()
+
+09:37:38 - Ultimo SQL: 
+Parâmetro incorreto para busca!
+CadastroAssociados_Implem->BuscarAssociado()
+

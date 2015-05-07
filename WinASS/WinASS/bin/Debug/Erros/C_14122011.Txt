@@ -1,0 +1,20 @@
+08:41:01 - Ultimo SQL: SET DATEFORMAT DMY   SELECT A.Descricao, Valor = SUM(isnull(ValorVisita,0)) + SUM(isnull(ValorConducao, 0)) + SUM(isnull(ValorMedicamento,0)) + SUM(isnull(ValorServico,0)) + SUM(isnull(ValorEquipamento,0)) + SUM(isnull(ValorMaoDeObra, 0)) + SUM(isnull(ValorEverminacao,0)) + SUM(isnull(ValorSemem,0)) + SUM(isnull(ValorOutros,0))  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Associados Ass,  Ass_Movimento M   LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE  M.Data between '01/01/2011' and '14/12/2011' AND M.TipoAssistencia IN (1)  AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = ''  GROUP BY A.Descricao  ORDER BY M.Data 
+O nome de coluna "Ass_Movimento.Data" é inválido na cláusula ORDER BY porque não está contido em uma função de agregação nem na cláusula GROUP BY.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.RelatorioMovimentos.LerItensAgrupamento(String pSQL) na D:\VB.NET 2005\WinASS\WinASS\RelatoriosAss\RelatorioMovimentos.vb:linha 1128
+

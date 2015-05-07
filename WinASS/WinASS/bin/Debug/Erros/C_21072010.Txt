@@ -1,0 +1,159 @@
+08:59:35 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+08:59:36 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+08:59:37 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+08:59:37 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+08:59:38 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+08:59:40 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:00:54 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:00:56 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:00:56 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:00:56 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:00:56 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:01:07 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:01:09 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:01:09 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:01:10 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:01:44 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:02:24 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:02:26 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:02:26 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:02:36 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:03:01 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:03:07 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:03:09 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:03:17 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:04:31 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:04:33 - Ultimo SQL: 
+Campo Incorreto para busca!
+Movimentos_Implem->BuscarMovimento()
+
+09:05:26 - Ultimo SQL: 
+Não é possível realizar a operação 'Like' em System.Int32 e System.String.
+   em System.Data.BinaryNode.SetTypeMismatchError(Int32 op, Type left, Type right)
+   em System.Data.LikeNode.Eval(DataRow row, DataRowVersion version)
+   em System.Data.BinaryNode.Eval()
+   em System.Data.BinaryNode.Optimize()
+   em System.Data.DataExpression.Bind(DataTable table)
+   em System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   em System.Data.DataView..ctor(DataTable table, String RowFilter, String Sort, DataViewRowState RowState)
+   em WinASS.Movimento.FazFiltro()
+   em WinASS.Movimento.cbTecnicosPesquisaEstado_SelectedIndexChanged(Object sender, EventArgs e)
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Movimento.PreencheCampoPesquisa()
+   em WinASS.Movimento.AtualizaMovimentos()
+   em WinASS.Movimento.LimpaTela(Boolean wNovoRegistro)
+   em WinASS.Movimento.Movimentos_Load(Object sender, EventArgs e)
+
+10:46:17 - Ultimo SQL: INSERT INTO Ass_Movimento (IdMovimento,  Data,  Tecnico,  Documento,  TipoAssistencia,  Animal,  TipoServico,  ValorConducao,  ValorMedicamento,  ValorServico,  ValorEquipamento,  ValorBeneficio,  ValorSemem,  NTouro,  Data_Hora_Cadastro,  Codigo_Usuario_Cadastro       ) VALUES ( '3', '21/07/2010', '1',  '1.234',  '4',  '1',  '1',  CAST('$5.00' AS MONEY),  Null,  CAST('$41.00' AS MONEY),  CAST('$10.00' AS MONEY),  Null,  Null,  '',  '1',  '21/07/2010 10:46:16' )  
+The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionPreYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   em System.Data.SqlClient.SqlInternalTransaction.Rollback(String transactionName)
+   em System.Data.SqlClient.SqlTransaction.Rollback(String transactionName)
+   em WinASS.Movimento_Implem.IncluirMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 352
+
+10:46:18 - Ultimo SQL: INSERT INTO Ass_Movimento (IdMovimento,  Data,  Tecnico,  Documento,  TipoAssistencia,  Animal,  TipoServico,  ValorConducao,  ValorMedicamento,  ValorServico,  ValorEquipamento,  ValorBeneficio,  ValorSemem,  NTouro,  Data_Hora_Cadastro,  Codigo_Usuario_Cadastro       ) VALUES ( '3', '21/07/2010', '1',  '1.234',  '4',  '1',  '1',  CAST('$5.00' AS MONEY),  Null,  CAST('$41.00' AS MONEY),  CAST('$10.00' AS MONEY),  Null,  Null,  '',  '1',  '21/07/2010 10:46:18' )  
+The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionPreYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   em System.Data.SqlClient.SqlInternalTransaction.Rollback(String transactionName)
+   em System.Data.SqlClient.SqlTransaction.Rollback(String transactionName)
+   em WinASS.Movimento_Implem.IncluirMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 352
+
+10:47:39 - Ultimo SQL: INSERT INTO Ass_Movimento (IdMovimento,  Data,  Tecnico,  Documento,  TipoAssistencia,  Animal,  TipoServico,  ValorConducao,  ValorMedicamento,  ValorServico,  ValorEquipamento,  ValorBeneficio,  ValorSemem,  NTouro,  Data_Hora_Cadastro,  Codigo_Usuario_Cadastro       ) VALUES ( '3', '21/07/2010', '1',  '1.234',  '4',  '1',  '1',  CAST('$5.00' AS MONEY),  Null,  CAST('$41.00' AS MONEY),  CAST('$10.00' AS MONEY),  Null,  Null,  '',  '1',  '21/07/2010 10:46:56' )  
+The ROLLBACK TRANSACTION request has no corresponding BEGIN TRANSACTION.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionPreYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   em System.Data.SqlClient.SqlInternalTransaction.Rollback(String transactionName)
+   em System.Data.SqlClient.SqlTransaction.Rollback(String transactionName)
+   em WinASS.Movimento_Implem.IncluirMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 352
+

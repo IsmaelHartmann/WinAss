@@ -1,0 +1,79 @@
+10:37:52 - Ultimo SQL: SET DATEFORMAT DMY   SELECT Data, T.Nome, Documento,A.Descricao TipoAssistencia, S.Descricao Servico, An.Nome, ValorConducao,   ValorMedicamento, ValorServico, ValorEquipamento, ValorBeneficio, ValorSemem    FROM Ass_Movimento M ,Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Animais An  WHERE  M.Data between '01/01/2010' and '30/07/2010' AND T.Codigo = M.Tecnico  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND An.Codigo = M.Animal  AND isnull(M.Data_Hora_Exclusao,'') = ''  T.Nome 
+Line 1: Incorrect syntax near 'T'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.RelatorioMovimentos.LerItens(String pSQL)
+
+10:41:10 - Ultimo SQL: 
+Variável de objeto ou variável com bloco não definida.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container..ctor(Object Instance)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em WinASS.RelatorioMovimentos.FazPesquisa() na D:\VB.NET2005\WinASS\WinASS\RelatoriosAss\RelacaoMovimentos.vb:linha 680
+
+05:23:50 - Ultimo SQL: SELECT CodigoCidade, NomeCidade FROM C_Cidades C  WHERE (SELECT U.SiglaEstado FROM C_Estados U WHERE U.SiglaEstado = C.SiglaEstado AND isnull(U.Data_Hora_Exclusao,'') = '' ) =' AND isnull(C.Data_Hora_Exclusao,'') = ''  ORDER BY NomeCidade
+Unclosed quotation mark before the character string ' AND isnull(C.Data_Hora_Exclusao,') = '  ORDER BY NomeCidade'.
+Line 1: Incorrect syntax near ' AND isnull(C.Data_Hora_Exclusao,') = '  ORDER BY NomeCidade'.
+
+
+05:23:51 - Ultimo SQL: 
+Variável de objeto ou variável com bloco não definida.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container..ctor(Object Instance)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase, CallType CallType)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSetComplex(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase)
+   em WinASS.Associados.cbEstado_SelectedIndexChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados.vb:linha 909
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Associados.Associados_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados.vb:linha 870
+
+05:24:10 - Ultimo SQL: SELECT CodigoCidade, NomeCidade FROM C_Cidades C  WHERE (SELECT U.SiglaEstado FROM C_Estados U WHERE U.SiglaEstado = C.SiglaEstado AND isnull(U.Data_Hora_Exclusao,'') = '' ) =' AND isnull(C.Data_Hora_Exclusao,'') = ''  ORDER BY NomeCidade
+Unclosed quotation mark before the character string ' AND isnull(C.Data_Hora_Exclusao,') = '  ORDER BY NomeCidade'.
+Line 1: Incorrect syntax near ' AND isnull(C.Data_Hora_Exclusao,') = '  ORDER BY NomeCidade'.
+
+
+05:24:55 - Ultimo SQL: 
+Variável de objeto ou variável com bloco não definida.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container..ctor(Object Instance)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase, CallType CallType)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSetComplex(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase)
+   em WinASS.Associados.cbEstado_SelectedIndexChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados.vb:linha 909
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Associados.Associados_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados.vb:linha 870
+
+05:25:14 - Ultimo SQL: 
+Variável de objeto ou variável com bloco não definida.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container..ctor(Object Instance)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase, CallType CallType)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateSetComplex(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean OptimisticSet, Boolean RValueBase)
+   em WinASS.Associados.cbEstado_SelectedIndexChanged(Object sender, EventArgs e)
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Associados.Associados_Load(Object sender, EventArgs e)
+
+05:26:10 - Ultimo SQL: 
+InvalidArgument=Value '0' não é um valor válido para 'SelectedIndex'.
+Nome do parâmetro: SelectedIndex
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Associados.cbEstado_SelectedIndexChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados.vb:linha 904
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Associados.Associados_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados.vb:linha 870
+

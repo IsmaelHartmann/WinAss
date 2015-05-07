@@ -1,0 +1,108 @@
+02:16:54 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '1'
+ValorVisita
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 277
+
+02:16:57 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '1'
+ValorVisita
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 277
+
+02:16:58 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '1'
+ValorVisita
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 277
+
+02:16:59 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '1'
+ValorVisita
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 277
+
+02:16:59 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '1'
+ValorVisita
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 277
+
+03:03:14 - Ultimo SQL: SELECT * FROM Ass_Movimento WHERE IdMovimento = '6'
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.Movimento_Implem.AlterarMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 479
+
+03:03:24 - Ultimo SQL: SELECT * FROM Ass_Movimento WHERE IdMovimento = '6'
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.Movimento_Implem.AlterarMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 479
+
+03:03:53 - Ultimo SQL: SELECT * FROM Ass_Movimento WHERE IdMovimento = '6'
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.Movimento_Implem.AlterarMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 479
+
+03:04:45 - Ultimo SQL: SELECT * FROM Ass_Movimento WHERE IdMovimento = '6'
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.Movimento_Implem.AlterarMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 479
+
+03:04:50 - Ultimo SQL: SELECT * FROM Ass_Movimento WHERE IdMovimento = '6'
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.Movimento_Implem.AlterarMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 479
+
+03:06:14 - Ultimo SQL: SELECT * FROM Ass_Movimento WHERE IdMovimento = '6'
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.Movimento_Implem.AlterarMovimento()
+
+03:06:50 - Ultimo SQL: SELECT * FROM Ass_Movimento WHERE IdMovimento = '6'
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.Movimento_Implem.AlterarMovimento()
+
+03:07:01 - Ultimo SQL:  UPDATE Ass_Movimento SET  Tecnico = '1', TipoAssistencia = '4', TipoServico = '2', Animal = Null WHERE   IdMovimento = '6'
+Cannot roll back AlterarMovimento. No transaction or savepoint of that name was found.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionPreYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   em System.Data.SqlClient.SqlInternalTransaction.Rollback(String transactionName)
+   em System.Data.SqlClient.SqlTransaction.Rollback(String transactionName)
+   em WinASS.Movimento_Implem.AlterarMovimento()
+
+03:07:04 - Ultimo SQL:  UPDATE Ass_Movimento SET  Tecnico = '1', TipoAssistencia = '4', TipoServico = '2', Animal = Null WHERE   IdMovimento = '6'
+Cannot roll back AlterarMovimento. No transaction or savepoint of that name was found.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionPreYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   em System.Data.SqlClient.SqlInternalTransaction.Rollback(String transactionName)
+   em System.Data.SqlClient.SqlTransaction.Rollback(String transactionName)
+   em WinASS.Movimento_Implem.AlterarMovimento()
+

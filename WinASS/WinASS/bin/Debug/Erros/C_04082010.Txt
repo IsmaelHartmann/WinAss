@@ -1,0 +1,7 @@
+04:09:51 - Ultimo SQL: SELECT * FROM Ass_Movimento WHERE IdMovimento = '2'
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.Movimento_Implem.AlterarMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 479
+

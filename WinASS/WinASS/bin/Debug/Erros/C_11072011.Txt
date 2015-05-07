@@ -1,0 +1,179 @@
+02:04:01 - Ultimo SQL: SELECT Codigo, CAST(CRMV + ' ' + Nome AS VARCHAR) FROM Ass_Tecnicos WHERE isnull(Data_Hora_Exclusao,'') = '' ORDER BY CRMV 
+Invalid column name 'CRMV'.
+Invalid column name 'CRMV'.
+
+
+02:04:03 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+02:04:03 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+02:04:04 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+02:04:05 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+02:04:06 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+02:07:03 - Ultimo SQL: SELECT Codigo, CAST(CRMV + ' ' + Nome AS VARCHAR) FROM Ass_Tecnicos WHERE isnull(Data_Hora_Exclusao,'') = '' ORDER BY CRMV 
+Invalid column name 'CRMV'.
+Invalid column name 'CRMV'.
+
+
+02:08:43 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+02:09:00 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+02:09:01 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+02:09:02 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+02:09:03 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+02:09:09 - Ultimo SQL: SELECT * FROM Ass_Tecnicos WHERE Codigo='1'
+CRMV
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Tecnicos_Implem.BuscarTecnico() na E:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Tecnicos_Implem.vb:linha 123
+
+02:09:10 - Ultimo SQL: SELECT * FROM Ass_Tecnicos WHERE Codigo='1'
+CRMV
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Tecnicos_Implem.BuscarTecnico() na E:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Tecnicos_Implem.vb:linha 123
+
+02:09:10 - Ultimo SQL: SELECT * FROM Ass_Tecnicos WHERE Codigo='1'
+CRMV
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Tecnicos_Implem.BuscarTecnico() na E:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Tecnicos_Implem.vb:linha 123
+
+02:09:11 - Ultimo SQL: SELECT * FROM Ass_Tecnicos WHERE Codigo='1'
+CRMV
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Tecnicos_Implem.BuscarTecnico() na E:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Tecnicos_Implem.vb:linha 123
+
+02:09:12 - Ultimo SQL: SELECT * FROM Ass_Tecnicos WHERE Codigo='1'
+CRMV
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Tecnicos_Implem.BuscarTecnico() na E:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Tecnicos_Implem.vb:linha 123
+
+02:11:24 - Ultimo SQL: SELECT * FROM C_Parametros  
+Valor_Vermifugo
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Parametros_Implem.BuscarParametro() na E:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 79
+
+02:12:18 - Ultimo SQL: SELECT * FROM C_Parametros  
+Valor_Vermifugo
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Parametros_Implem.BuscarParametro() na E:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 79
+
+02:12:20 - Ultimo SQL: SELECT * FROM C_Parametros  
+Valor_Bernicida
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Parametros_Implem.AlterarParametro() na E:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 120
+
+02:12:28 - Ultimo SQL: SELECT * FROM C_Parametros  
+Valor_Bernicida
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Parametros_Implem.AlterarParametro() na E:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 120
+
+02:13:21 - Ultimo SQL: SELECT * FROM C_Parametros  
+Valor_Bernicida
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Parametros_Implem.AlterarParametro() na E:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 120
+
+02:13:43 - Ultimo SQL: SELECT * FROM C_Parametros  
+Valor_Bernicida
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Parametros_Implem.AlterarParametro() na E:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 120
+
+02:13:45 - Ultimo SQL: SELECT * FROM C_Parametros  
+Valor_Bernicida
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Parametros_Implem.AlterarParametro() na E:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 120
+
+02:13:48 - Ultimo SQL: SELECT * FROM C_Parametros  
+Valor_Bernicida
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Parametros_Implem.AlterarParametro() na E:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 120
+
+02:14:26 - Ultimo SQL: 
+
+
+
+02:14:32 - Ultimo SQL: 
+
+
+

@@ -1,0 +1,51 @@
+02:27:08 - Ultimo SQL: 
+Não foi possível localizar o arquivo 'D:\VB.NET2005\WinASS\WinASS\bin\Debug\Menu.xml'.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   em System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   em System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   em System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   em System.Threading.CompressedStack.runTryCode(Object userData)
+   em System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   em System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   em System.Xml.XmlTextReaderImpl.OpenUrl()
+   em System.Xml.XmlTextReaderImpl.Read()
+   em System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   em System.Xml.XmlDocument.Load(XmlReader reader)
+   em System.Xml.XmlDocument.Load(String filename)
+   em WinASS.Principal.CreateMenu() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 451
+   em WinASS.Principal.AtualizaDadosUsuario() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 267
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 234
+
+02:27:17 - Ultimo SQL: 
+Não foi possível localizar o arquivo 'D:\VB.NET2005\WinASS\WinASS\bin\Debug\Menu.xml'.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   em System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   em System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   em System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   em System.Threading.CompressedStack.runTryCode(Object userData)
+   em System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   em System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   em System.Xml.XmlTextReaderImpl.OpenUrl()
+   em System.Xml.XmlTextReaderImpl.Read()
+   em System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   em System.Xml.XmlDocument.Load(XmlReader reader)
+   em System.Xml.XmlDocument.Load(String filename)
+   em WinASS.Principal.CreateMenu() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 451
+   em WinASS.Principal.AtualizaDadosUsuario() na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 267
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 234
+
+02:30:18 - Ultimo SQL:  UPDATE Ass_Movimento  SET Situacao = 'E',  Data_Envio = '31/08/2012'  WHERE IdMovimento = '14289' 
+Invalid column name 'Data_Envio'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em WinASS.ConsolidaDados.btProcessarlancamentos_Click(Object sender, EventArgs e)
+

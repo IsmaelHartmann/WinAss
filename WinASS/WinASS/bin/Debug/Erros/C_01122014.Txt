@@ -1,0 +1,4 @@
+03:28:26 - Ultimo SQL: 
+Parâmetro incorreto para alteração!
+Movimentos_Implem->AlterarMovimento()
+

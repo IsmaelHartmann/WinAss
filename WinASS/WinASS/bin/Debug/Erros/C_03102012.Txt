@@ -1,0 +1,20 @@
+05:18:10 - Ultimo SQL:  SET DATEFORMAT dmy SELECT Tabela, Chave,  CAST(LEFT('00', 2 - len(DATEPART(dd, DataHora))) AS VARCHAR)+ CAST(DATEPART(dd, DataHora) AS VARCHAR) + '/' +  CAST(LEFT('00', 2 - len(DATEPART(mm, DataHora))) AS VARCHAR)+ CAST(DATEPART(mm, DataHora) AS VARCHAR) + '/' +  CAST(DATEPART(yy, DataHora) AS VARCHAR) + ' ' +  CAST(LEFT('00', 2 - len(DATEPART(hh, DataHora))) AS VARCHAR)+ CAST(DATEPART(hh, DataHora) AS VARCHAR) + ':' +  CAST(LEFT('00', 2 - len(DATEPART(mi, DataHora))) AS VARCHAR)+ CAST(DATEPART(mi, DataHora) AS VARCHAR) + ':' +  CAST(LEFT('00', 2 - len(DATEPART(ss, DataHora))) AS VARCHAR)+ CAST(DATEPART(ss, DataHora) AS VARCHAR) AS DataHorax,  Usuario,Campo,   case len(infoantigo) when 11 then isnull((select nome from C_clientes  where codigo=infoantigo),infoantigo)  when 14 then isnull((select nome from C_clientes  where codigo=infoantigo),infoantigo) else infoantigo end InfoAntigo  FROM C_LOG WHERE  Tabela like 'Ass_Movimento%' AND  Chave LIKE '16306%' ORDER BY Chave, DataHora DESC 
+Invalid object name 'C_clientes'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.ConsultaLog_Implem.MostraC_LOG(DataGrid& pObjTabela, String pSQL) na D:\VB.NET2005\WinASS\WinASS\ConsultaLog_Implem.vb:linha 89
+

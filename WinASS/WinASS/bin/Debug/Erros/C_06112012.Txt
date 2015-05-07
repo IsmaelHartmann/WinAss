@@ -1,0 +1,45 @@
+09:38:50 - Ultimo SQL: SET DATEFORMAT DMY  SELECT M.IdMovimento, MData = M.Data, CAST(isnull(Matricula,0) AS INTEGER), Ass.Nome, isnull(Documento,0),  Valor = (ISNULL(M.ValorConducao,0) + ISNULL(M.ValorMedicamento,0) + ISNULL(M.ValorServico,0) +  ISNULL(M.ValorEquipamento,0) + ISNULL(M.ValorVisita,0) +  ISNULL(M.ValorEverminacao,0) + ISNULL(M.ValorSemem,0) + ISNULL(M.ValorMaodeObra,0) + ISNULL(M.ValorOutros,0))  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Associados Ass, Ass_Movimento M   LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE M.Data BETWEEN '01/09/2012' AND '30/09/2012' AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = ''  AND isnull(M.Situacao,'') = 'E'  AND M.TipoAssistencia IN (13)  ORDER BY isnull(Documento,0) 
+O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   em System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   em WinASS.ConsolidaDados.btProcessarEnviados_Click(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Rotinas\ConsolidaDados.vb:linha 516
+
+09:38:55 - Ultimo SQL: SET DATEFORMAT DMY  SELECT M.IdMovimento, MData = M.Data, CAST(isnull(Matricula,0) AS INTEGER), Ass.Nome, isnull(Documento,0),  Valor = (ISNULL(M.ValorConducao,0) + ISNULL(M.ValorMedicamento,0) + ISNULL(M.ValorServico,0) +  ISNULL(M.ValorEquipamento,0) + ISNULL(M.ValorVisita,0) +  ISNULL(M.ValorEverminacao,0) + ISNULL(M.ValorSemem,0) + ISNULL(M.ValorMaodeObra,0) + ISNULL(M.ValorOutros,0))  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Associados Ass, Ass_Movimento M   LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE M.Data BETWEEN '01/09/2012' AND '30/09/2012' AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = ''  AND isnull(M.Situacao,'') = 'E'  AND M.TipoAssistencia IN (13)  ORDER BY isnull(Documento,0) 
+O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   em System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   em WinASS.ConsolidaDados.btProcessarEnviados_Click(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Rotinas\ConsolidaDados.vb:linha 516
+
+09:40:37 - Ultimo SQL: SET DATEFORMAT DMY  SELECT M.IdMovimento, MData = M.Data, CAST(isnull(Matricula,0) AS INTEGER), Ass.Nome, isnull(Documento,0),  Valor = (ISNULL(M.ValorConducao,0) + ISNULL(M.ValorMedicamento,0) + ISNULL(M.ValorServico,0) +  ISNULL(M.ValorEquipamento,0) + ISNULL(M.ValorVisita,0) +  ISNULL(M.ValorEverminacao,0) + ISNULL(M.ValorSemem,0) + ISNULL(M.ValorMaodeObra,0) + ISNULL(M.ValorOutros,0))  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Associados Ass, Ass_Movimento M   LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE M.Data BETWEEN '01/09/2012' AND '30/09/2012' AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = ''  AND isnull(M.Situacao,'') = 'E'  AND M.TipoAssistencia IN (13)  ORDER BY isnull(Documento,0) 
+O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   em System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   em WinASS.ConsolidaDados.btProcessarEnviados_Click(Object sender, EventArgs e)
+
+09:41:00 - Ultimo SQL: SET DATEFORMAT DMY  SELECT M.IdMovimento, MData = M.Data, CAST(isnull(Matricula,0) AS INTEGER), Ass.Nome, isnull(Documento,0),  Valor = (ISNULL(M.ValorConducao,0) + ISNULL(M.ValorMedicamento,0) + ISNULL(M.ValorServico,0) +  ISNULL(M.ValorEquipamento,0) + ISNULL(M.ValorVisita,0) +  ISNULL(M.ValorEverminacao,0) + ISNULL(M.ValorSemem,0) + ISNULL(M.ValorMaodeObra,0) + ISNULL(M.ValorOutros,0))  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Associados Ass, Ass_Movimento M   LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE M.Data BETWEEN '01/09/2012' AND '30/09/2012' AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = ''  AND isnull(M.Situacao,'') = 'E'  AND M.TipoAssistencia IN (13)  ORDER BY isnull(Documento,0) 
+O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   em System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   em WinASS.ConsolidaDados.btProcessarEnviados_Click(Object sender, EventArgs e)
+
+09:41:20 - Ultimo SQL: SET DATEFORMAT DMY  SELECT M.IdMovimento, MData = M.Data, CAST(isnull(Matricula,0) AS INTEGER), Ass.Nome, isnull(Documento,0),  Valor = (ISNULL(M.ValorConducao,0) + ISNULL(M.ValorMedicamento,0) + ISNULL(M.ValorServico,0) +  ISNULL(M.ValorEquipamento,0) + ISNULL(M.ValorVisita,0) +  ISNULL(M.ValorEverminacao,0) + ISNULL(M.ValorSemem,0) + ISNULL(M.ValorMaodeObra,0) + ISNULL(M.ValorOutros,0))  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Associados Ass, Ass_Movimento M   LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE M.Data BETWEEN '01/09/2012' AND '30/09/2012' AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = ''  AND isnull(M.Situacao,'') = 'E'  AND M.TipoAssistencia IN (13)  ORDER BY isnull(Documento,0) 
+O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   em System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridView.get_Item(Int32 columnIndex, Int32 rowIndex)
+   em WinASS.ConsolidaDados.btProcessarEnviados_Click(Object sender, EventArgs e)
+

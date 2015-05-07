@@ -1,0 +1,30 @@
+11:30:56 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='2169'
+A conversão da seqüência de caracteres '' no tipo 'Date' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   em Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.Associados.dtgAssociados_Sorted(Object sender, EventArgs e)
+   em System.Windows.Forms.DataGridView.OnDataSourceChanged(EventArgs e)
+   em System.Windows.Forms.DataGridView.set_DataSource(Object value)
+   em WinASS.Associados_Implem.MostraTabelaAssociados(DataGridView& pObjTabela, String pSQL)
+
+11:34:54 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='2169'
+A conversão da seqüência de caracteres '' no tipo 'Date' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   em Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.Associados.dtgAssociados_Sorted(Object sender, EventArgs e)
+   em System.Windows.Forms.DataGridView.OnDataSourceChanged(EventArgs e)
+   em System.Windows.Forms.DataGridView.set_DataSource(Object value)
+   em WinASS.Associados_Implem.MostraTabelaAssociados(DataGridView& pObjTabela, String pSQL)
+
+11:35:06 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='2169'
+A conversão da seqüência de caracteres '' no tipo 'Date' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   em Microsoft.VisualBasic.CompilerServices.Operators.CompareObject2(Object Left, Object Right, Boolean TextCompare)
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.Associados.dtgAssociados_Sorted(Object sender, EventArgs e)
+   em System.Windows.Forms.DataGridView.OnDataSourceChanged(EventArgs e)
+   em System.Windows.Forms.DataGridView.set_DataSource(Object value)
+   em WinASS.Associados_Implem.MostraTabelaAssociados(DataGridView& pObjTabela, String pSQL)
+

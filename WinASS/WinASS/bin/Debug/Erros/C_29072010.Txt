@@ -1,0 +1,22 @@
+01:49:01 - Ultimo SQL:  UPDATE Ass_Associados SET  Data_Nasc = '14/07/1500' WHERE   Codigo='1'
+The conversion of char data type to smalldatetime data type resulted in an out-of-range smalldatetime value.
+The statement has been terminated.
+   em WinASS.Associados_Implem.AlterarAssociado() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados_Implem.vb:linha 405
+
+01:54:08 - Ultimo SQL:  UPDATE Ass_Associados SET  Data_Nasc = '14/07/1500' WHERE   Codigo='1'
+The conversion of char data type to smalldatetime data type resulted in an out-of-range smalldatetime value.
+The statement has been terminated.
+   em WinASS.Associados_Implem.AlterarAssociado()
+
+02:02:00 - Ultimo SQL: 
+Variável de objeto ou variável com bloco não definida.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container..ctor(Object Instance)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em WinASS.TiposAssistencias.GuardaDadosTiposAssistencias() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1023
+
+02:24:02 - Ultimo SQL: 
+Variável de objeto ou variável com bloco não definida.
+   em Microsoft.VisualBasic.CompilerServices.Symbols.Container..ctor(Object Instance)
+   em Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   em WinASS.Movimento.GuardaDadosMovimentos() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1219
+

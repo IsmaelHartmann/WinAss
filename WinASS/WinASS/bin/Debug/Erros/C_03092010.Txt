@@ -1,0 +1,101 @@
+03:06:34 - Ultimo SQL:  SELECT isnull(max(cast(Id_Usuario as integer)),0)+1 Id_Usuario  FROM C_Usuarios WHERE isnumeric(Id_Usuario)<>0 
+Codigo
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Usuarios_Implem.IncluirUsuario() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Usuarios_Implem.vb:linha 222
+
+03:10:30 - Ultimo SQL: 
+A conversão da seqüência de caracteres 'AC' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Estados_Implem.AlterarEstado() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados_Implem.vb:linha 143
+   em WinASS.Estados.Alterar() na D:\VB.NET2005\WinASS\WinASS\Cadatros_Sis\Estados.vb:linha 848
+
+03:13:21 - Ultimo SQL: 
+A conversão da seqüência de caracteres 'AE' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Estados_Implem.AlterarEstado()
+   em WinASS.Estados.Alterar()
+
+03:13:24 - Ultimo SQL: 
+A conversão da seqüência de caracteres 'AE' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Estados_Implem.AlterarEstado()
+   em WinASS.Estados.Alterar()
+
+03:15:56 - Ultimo SQL: 
+A conversão da seqüência de caracteres 'AE' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.Estados_Implem.AlterarEstado()
+   em WinASS.Estados.Alterar()
+
+03:16:23 - Ultimo SQL: SELECT * FROM C_Estados WHERE SiglaEstado ='AE'
+Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+   em System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   em System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   em System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em WinASS.Estados_Implem.AlterarEstado()
+
+03:16:28 - Ultimo SQL: SELECT * FROM C_Estados WHERE SiglaEstado ='AE'
+Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+   em System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   em System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   em System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em WinASS.Estados_Implem.AlterarEstado()
+
+03:16:38 - Ultimo SQL: SELECT * FROM C_Estados WHERE SiglaEstado ='AC'
+NomeEstado
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Estados_Implem.AlterarEstado()
+
+03:19:26 - Ultimo SQL:  SET DATEFORMAT dmy SELECT Tabela, Chave,  CAST(LEFT('00', 2 - len(DATEPART(dd, DataHora))) AS VARCHAR)+ CAST(DATEPART(dd, DataHora) AS VARCHAR) + '/' +  CAST(LEFT('00', 2 - len(DATEPART(mm, DataHora))) AS VARCHAR)+ CAST(DATEPART(mm, DataHora) AS VARCHAR) + '/' +  CAST(DATEPART(yy, DataHora) AS VARCHAR) + ' ' +  CAST(LEFT('00', 2 - len(DATEPART(hh, DataHora))) AS VARCHAR)+ CAST(DATEPART(hh, DataHora) AS VARCHAR) + ':' +  CAST(LEFT('00', 2 - len(DATEPART(mi, DataHora))) AS VARCHAR)+ CAST(DATEPART(mi, DataHora) AS VARCHAR) + ':' +  CAST(LEFT('00', 2 - len(DATEPART(ss, DataHora))) AS VARCHAR)+ CAST(DATEPART(ss, DataHora) AS VARCHAR) AS DataHorax,  Usuario,Campo,   case len(infoantigo) when 11 then isnull((select nome from C_clientes  where codigo=infoantigo),infoantigo)  when 14 then isnull((select nome from C_clientes  where codigo=infoantigo),infoantigo) else infoantigo end InfoAntigo  FROM C_LOG WHERE  Tabela like 'C_Estados%' AND  Chave LIKE 'AL%' ORDER BY Chave, DataHora DESC 
+Invalid object name 'C_clientes'.
+Invalid object name 'C_clientes'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.ConsultaLog_Implem.MostraC_LOG(DataGrid& pObjTabela, String pSQL)
+
+03:19:40 - Ultimo SQL: INSERT INTO C_Estados (SiglaEstado,      Nome,   Codigo_Usuario_Cadastro,   Data_Hora_Cadastro      ) VALUES (  AC,     'JONAS',   '1',   '03/09/2010 15:19:40' )  
+The name 'AC' is not permitted in this context. Only constants, expressions, or variables allowed here. Column names are not permitted.
+   em WinASS.Estados_Implem.IncluirEstado()
+
+03:20:23 - Ultimo SQL: INSERT INTO C_Estados (SiglaEstado,      Nome,   Codigo_Usuario_Cadastro,   Data_Hora_Cadastro      ) VALUES (  AC,     'JONAS',   '1',   '03/09/2010 15:20:23' )  
+The name 'AC' is not permitted in this context. Only constants, expressions, or variables allowed here. Column names are not permitted.
+   em WinASS.Estados_Implem.IncluirEstado()
+
+03:20:27 - Ultimo SQL: INSERT INTO C_Estados (SiglaEstado,      Nome,   Codigo_Usuario_Cadastro,   Data_Hora_Cadastro      ) VALUES (  JO,     'JONAS',   '1',   '03/09/2010 15:20:27' )  
+The name 'JO' is not permitted in this context. Only constants, expressions, or variables allowed here. Column names are not permitted.
+   em WinASS.Estados_Implem.IncluirEstado()
+
+03:20:41 - Ultimo SQL: INSERT INTO C_Estados (SiglaEstado,      Nome,   Codigo_Usuario_Cadastro,   Data_Hora_Cadastro      ) VALUES (  JO,     'JONAS',   '1',   '03/09/2010 15:20:40' )  
+The name 'JO' is not permitted in this context. Only constants, expressions, or variables allowed here. Column names are not permitted.
+   em WinASS.Estados_Implem.IncluirEstado()
+

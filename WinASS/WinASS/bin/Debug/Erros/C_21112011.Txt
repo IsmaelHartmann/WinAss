@@ -1,0 +1,97 @@
+01:37:10 - Ultimo SQL: 
+Não foram achados registros !
+
+
+01:38:15 - Ultimo SQL: SET DATEFORMAT DMY  SELECT MData = M.Data, isnull(Ass.Matricula,''), Ass.Nome, isnull(Documento,0)  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Associados Ass, Ass_Movimento M   LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE M.Data BETWEEN '01/09/2011' AND '30/09/2011' AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = '' 
+O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridViewColumnCollection.get_Item(Int32 index)
+   em WinASS.ExportaDados.MostraTabela(DataGridView& pObjTabela, String pSQL)
+
+01:39:15 - Ultimo SQL: SET DATEFORMAT DMY  SELECT MData = M.Data, isnull(Ass.Matricula,''), Ass.Nome, isnull(Documento,0)  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Associados Ass, Ass_Movimento M   LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE M.Data BETWEEN '01/10/2011' AND '31/10/2011' AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = '' 
+O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridViewColumnCollection.get_Item(Int32 index)
+   em WinASS.ExportaDados.MostraTabela(DataGridView& pObjTabela, String pSQL) na D:\VB.NET 2005\WinASS\WinASS\Rotinas\ExportaDados.vb:linha 183
+
+01:41:55 - Ultimo SQL: SET DATEFORMAT DMY  SELECT MData = M.Data, isnull(Ass.Matricula,''), Ass.Nome, isnull(Documento,0)  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Associados Ass, Ass_Movimento M   LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE M.Data BETWEEN '01/10/2011' AND '31/10/2011' AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = '' 
+O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridViewColumnCollection.get_Item(Int32 index)
+   em WinASS.ExportaDados.MostraTabela(DataGridView& pObjTabela, String pSQL) na D:\VB.NET 2005\WinASS\WinASS\Rotinas\ExportaDados.vb:linha 183
+
+01:44:02 - Ultimo SQL: SET DATEFORMAT DMY  SELECT MData = M.Data, isnull(Ass.Matricula,''), Ass.Nome, isnull(Documento,0)  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Associados Ass, Ass_Movimento M   LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE M.Data BETWEEN '01/10/2011' AND '31/10/2011' AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = '' 
+O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridViewColumnCollection.get_Item(Int32 index)
+   em WinASS.ExportaDados.MostraTabela(DataGridView& pObjTabela, String pSQL) na D:\VB.NET 2005\WinASS\WinASS\Rotinas\ExportaDados.vb:linha 183
+
+01:46:40 - Ultimo SQL: SET DATEFORMAT DMY  SELECT MData = M.Data, isnull(Ass.Matricula,''), Ass.Nome, isnull(Documento,0)  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Associados Ass, Ass_Movimento M   LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE M.Data BETWEEN '01/09/2011' AND '30/09/2011' AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = '' 
+Não é possível encontrar a coluna 4.
+   em System.Data.DataColumnCollection.get_Item(Int32 index)
+   em WinASS.ExportaDados.MostraTabelaNova(DataGridView& pObjTabela, String pSQL) na D:\VB.NET 2005\WinASS\WinASS\Rotinas\ExportaDados.vb:linha 225
+
+01:47:01 - Ultimo SQL: SET DATEFORMAT DMY  SELECT MData = M.Data, isnull(Ass.Matricula,''), Ass.Nome, isnull(Documento,0)  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Associados Ass, Ass_Movimento M   LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE M.Data BETWEEN '01/09/2011' AND '30/09/2011' AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = '' 
+A conversão do tipo 'Date' no tipo 'Decimal' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDecimal(Object Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDecimal(Object Value)
+   em WinASS.GenProc.NullDecimal(Object pVar) na D:\VB.NET 2005\WinASS\WinASS\Globais\GenProc.vb:linha 341
+   em WinASS.ExportaDados.CabecalhoGrid(DataGridView pObjTabela, TextBox pCabecalhoTxt, String pTipo) na D:\VB.NET 2005\WinASS\WinASS\Rotinas\ExportaDados.vb:linha 274
+   em WinASS.ExportaDados.MostraTabelaNova(DataGridView& pObjTabela, String pSQL) na D:\VB.NET 2005\WinASS\WinASS\Rotinas\ExportaDados.vb:linha 251
+
+04:19:14 - Ultimo SQL: 
+Não foram achados registros !
+
+
+04:19:24 - Ultimo SQL: 
+Não foram achados registros !
+
+
+04:31:18 - Ultimo SQL:  UPDATE Ass_Movimentos  SET Situacao = 'V'  WHERE IdMovimento = '2197' 
+Nome de objeto 'Ass_Movimentos' inválido.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em WinASS.ExportaDados.btValidarlancamentos_Click(Object sender, EventArgs e) na D:\VB.NET 2005\WinASS\WinASS\Rotinas\ExportaDados.vb:linha 542
+
+04:31:53 - Ultimo SQL:  UPDATE Ass_Movimentos  SET Situacao = 'V'  WHERE IdMovimento = '2197' 
+Nome de objeto 'Ass_Movimentos' inválido.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em WinASS.ExportaDados.btValidarlancamentos_Click(Object sender, EventArgs e)
+
+04:32:08 - Ultimo SQL:  UPDATE Ass_Movimentos  SET Situacao = 'V'  WHERE IdMovimento = '2197' 
+Não foram achados registros !
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em WinASS.ExportaDados.btValidarlancamentos_Click(Object sender, EventArgs e)
+
+04:33:59 - Ultimo SQL: SET DATEFORMAT DMY  SELECT M.IdMovimento, MData = M.Data, isnull(Ass.Matricula,''), Ass.Nome, isnull(Documento,0)  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Associados Ass, Ass_Movimento M   LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE M.Data BETWEEN '01/10/2011' AND '31/10/2011' AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = ''  AND isnull(M.Situacao,'') = 'V'  AND M.TipoAssistencia IN (1,2,3,4,5) 
+O índice estava fora do intervalo. Ele deve ser não-negativo e menor que o tamanho da coleção.
+Nome do parâmetro: index
+   em System.Collections.ArrayList.get_Item(Int32 index)
+   em System.Windows.Forms.DataGridViewColumnCollection.get_Item(Int32 index)
+   em WinASS.ExportaDados.MostraTabelaNova(DataGridView& pObjTabela, String pSQL) na D:\VB.NET 2005\WinASS\WinASS\Rotinas\ExportaDados.vb:linha 267
+
+04:34:58 - Ultimo SQL: 
+Não foram achados registros !
+
+

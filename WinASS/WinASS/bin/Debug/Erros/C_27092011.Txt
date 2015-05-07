@@ -1,0 +1,146 @@
+10:33:49 - Ultimo SQL:  SELECT U.*,S.Nome NomeSetor         FROM  C_Usuarios U,C_Setores S  WHERE      Login='3' AND      Senha='3' AND      U.Setor=S.Codigo 
+Nome de objeto 'C_Usuarios' inválido.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em WinASS.TelaLogin.VerificaLogin(String pLogin, String pSenha) na D:\VB.NET 2005\WinASS\WinASS\TelaLogin.vb:linha 91
+
+10:42:44 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '2'
+TipoEverminacao
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 342
+
+10:42:50 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '2'
+TipoEverminacao
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 342
+
+10:42:53 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '2'
+TipoEverminacao
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 342
+
+10:42:55 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '2'
+TipoEverminacao
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 342
+
+10:42:56 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '2'
+TipoEverminacao
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 342
+
+10:43:18 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '2'
+Cabecas
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 343
+
+10:43:28 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '2'
+ValorMaodeObra
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 344
+
+10:43:28 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '2'
+ValorMaodeObra
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 344
+
+10:43:43 - Ultimo SQL: SELECT * FROM C_Parametros  
+Assistencia_Languiru
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Parametros_Implem.BuscarParametro() na D:\VB.NET 2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 103
+
+10:44:05 - Ultimo SQL: SELECT * FROM C_Parametros  
+Valor_Beneficio_Languiru
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Parametros_Implem.BuscarParametro() na D:\VB.NET 2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 104
+
+10:44:24 - Ultimo SQL:  UPDATE C_Parametros SET  Valor_Beneficio_Languiru =  '8.16' , Assistencia_Languiru = '1'  
+Este SqlTransaction foi concluído; ele não pode mais ser usado.
+   em System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   em System.Data.SqlClient.SqlTransaction.Rollback(String transactionName)
+   em WinASS.Parametros_Implem.AlterarParametro() na D:\VB.NET 2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 195
+
+10:44:32 - Ultimo SQL:  UPDATE C_Parametros SET  Valor_Beneficio_Languiru =  '8.16' , Assistencia_Languiru = '1'  
+Este SqlTransaction foi concluído; ele não pode mais ser usado.
+   em System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   em System.Data.SqlClient.SqlTransaction.Rollback(String transactionName)
+   em WinASS.Parametros_Implem.AlterarParametro() na D:\VB.NET 2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 195
+
+10:46:01 - Ultimo SQL: SELECT Codigo, Nome FROM Ass_Prefeituras P  WHERE (SELECT U.SiglaEstado FROM C_Estados U WHERE U.SiglaEstado = P.Sigla_Estado AND isnull(U.Data_Hora_Exclusao,'') = '' ) ='' AND isnull(P.Data_Hora_Exclusao,'') = ''  ORDER BY Nome
+Nome de coluna 'Sigla_Estado' inválido.
+
+
+10:46:11 - Ultimo SQL: SELECT Codigo, Nome FROM Ass_Prefeituras P  WHERE (SELECT U.SiglaEstado FROM C_Estados U WHERE U.SiglaEstado = P.Sigla_Estado AND isnull(U.Data_Hora_Exclusao,'') = '' ) ='' AND isnull(P.Data_Hora_Exclusao,'') = ''  ORDER BY Nome
+Nome de coluna 'Sigla_Estado' inválido.
+
+
+10:56:37 - Ultimo SQL: SET DATEFORMAT DMY   SELECT Data, A.Nome, Documento,A.Descricao TipoAssistencia, S.Descricao Servico, isnull(An.Nome,''),  isnull(ValorConducao,0), isnull(ValorMedicamento,0), isnull(ValorServico,0),  isnull(ValorEquipamento,0), isnull(ValorBeneficio,0), isnull(ValorSemem,0), isnull(ValorOutros,0)  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Movimento M  LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE  M.Data between '01/01/2011' and '27/09/2011' AND T.Codigo = M.Tecnico  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = ''  ORDER BY T.Nome 
+Nome de coluna 'Nome' inválido.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.RelatorioMovimentos.LerItens(String pSQL) na D:\VB.NET 2005\WinASS\WinASS\RelatoriosAss\RelatorioMovimentos.vb:linha 551
+
+10:58:15 - Ultimo SQL: SET DATEFORMAT DMY   SELECT Data, Ass.Nome, Documento,A.Descricao TipoAssistencia, S.Descricao Servico, isnull(An.Nome,''),  isnull(ValorConducao,0), isnull(ValorMedicamento,0), isnull(ValorServico,0),  isnull(ValorEquipamento,0), isnull(ValorBeneficio,0), isnull(ValorSemem,0), isnull(ValorOutros,0)  FROM Ass_Tecnicos T, Ass_TipoAssistencia A, Ass_TipoServico S, Ass_Movimento M, Ass_Associados Ass  LEFT JOIN Ass_Animais An ON An.Codigo = M.Animal  WHERE  M.Data between '01/01/2011' and '27/09/2011' AND T.Codigo = M.Tecnico  AND Ass.Codigo = M.Associado  AND A.Codigo = M.TipoAssistencia  AND S.Codigo = M.TipoServico  AND isnull(M.Data_Hora_Exclusao,'') = ''  ORDER BY T.Nome 
+O identificador de várias partes "M.Animal" não pôde ser associado.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.RelatorioMovimentos.LerItens(String pSQL)
+

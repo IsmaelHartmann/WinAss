@@ -1,0 +1,18 @@
+08:22:40 - Ultimo SQL: INSERT INTO Ass_Movimento (IdMovimento,  Data,  Tecnico,  Prefeitura,  Associado,  Documento,  Canhoto,  TipoAssistencia,  Animal,  TipoEverminacao,  TipoServico,  Cabecas,  Situacao,  ValorMaodeObra,  ValorOutros,  ValorEverminacao,  ValorConducao,  ValorMedicamento,  ValorServico,  ValorEquipamento,  ValorBeneficio,  ValorSemem,  ValorVisita,  NTouro,  Talao,  Codigo_Usuario_Cadastro,  Data_Hora_Cadastro       ) VALUES ( '2428', '30/11/2011', '8',  '33',  '2290',  '100',  '0',  '2',  '1',  '',  '7',  '0',  'Null',  Null,  Null,  Null,  Null,  Null,  Null,  CAST('$14.00' AS MONEY),  Null,  CAST('$1.00' AS MONEY),  CAST('$10.00' AS MONEY),  '',  '111/111.111.1',  '1',  '30/11/2011 08:22:39')
+Dados de cadeia ou binários seriam truncados.
+A instrução foi finalizada.
+   em WinASS.Movimento_Implem.IncluirMovimento() na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 575
+
+08:32:47 - Ultimo SQL: INSERT INTO Ass_Movimento (IdMovimento,  Data,  Tecnico,  Prefeitura,  Associado,  Documento,  Canhoto,  TipoAssistencia,  Animal,  TipoEverminacao,  TipoServico,  Cabecas,  Situacao,  ValorMaodeObra,  ValorOutros,  ValorEverminacao,  ValorConducao,  ValorMedicamento,  ValorServico,  ValorEquipamento,  ValorBeneficio,  ValorSemem,  ValorVisita,  NTouro,  Talao,  Codigo_Usuario_Cadastro,  Data_Hora_Cadastro       ) VALUES ( '2429', '30/11/2011', '5',  '33',  '2290',  '1010',  '0',  '1',  '1',  '',  '2',  '0',  ''L'',  Null,  CAST('$2.00' AS MONEY),  Null,  Null,  CAST('$1.00' AS MONEY),  CAST('$2.00' AS MONEY),  CAST('$4.00' AS MONEY),  CAST('$1.00' AS MONEY),  CAST('$3.00' AS MONEY),  CAST('$10.00' AS MONEY),  '',  '111/111.111.1',  '1',  '30/11/2011 08:32:47')
+Sintaxe incorreta próxima a 'L'.
+   em WinASS.Movimento_Implem.IncluirMovimento() na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 575
+
+08:34:11 - Ultimo SQL:  UPDATE Ass_Movimento  SET Situacao = 'C'  WHERE IdMovimento = '2429' 
+ExecuteNonQuery requer uma conexão aberta e disponível. O estado atual da conexão é fechada.
+   em System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   em System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   em System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em WinASS.ConsolidaDados.btProcessarEnviados_Click(Object sender, EventArgs e)
+

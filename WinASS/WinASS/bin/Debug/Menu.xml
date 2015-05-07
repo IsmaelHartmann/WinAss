@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Item>
+    <Item Name="Sistema" Target="WinASS" IsMDI="false" IsModal="false" Image="0" >
+      <Item Name="Cidades" Target="WinASS.Cidades" IsMDI="true" IsModal="false" Image="0" />
+      <Item Name="Empresas" Target="WinASS.Empresas" IsMDI="true" IsModal="false" Image="0" />
+      <Item Name="Estados" Target="WinASS.Estados" IsMDI="true" IsModal="false" Image="0" />
+      <Item Name="Filiais" Target="WinASS.Filiais" IsMDI="true" IsModal="false" Image="0" />
+      <Item Name="Parâmetros" Target="WinASS.Parametros" IsMDI="true" IsModal="false" Image="0" />
+      <Item Name="Setores" Target="WinASS.Setores" IsMDI="true" IsModal="false" Image="0" />
+      <Item Name="Usuários" Target="WinASS.Usuarios" IsMDI="true" IsModal="false" Image="0" />
+    </Item>
+    <Item Name="Cadastro" Target="WinASS" IsMDI="false" IsModal="false" Image="0" >
+      <Item Name="Animais" Target="WinASS.Animais" IsMDI="true" IsModal="false" Image="0" />
+      <Item Name="Associados" Target="WinASS.Associados" IsMDI="true" IsModal="false" Image="0" />
+      <Item Name="Prefeituras" Target="WinASS.Prefeituras" IsMDI="true" IsModal="false" Image="0" />
+      <Item Name="Técnicos" Target="WinASS.Tecnicos" IsMDI="true" IsModal="false" Image="0" />
+      <Item Name="Tipos de Assistência" Target="WinASS.TiposAssistencias" IsMDI="true" IsModal="false" Image="0" />
+      <Item Name="Tipos de Serviço" Target="WinASS.TiposServicos" IsMDI="true" IsModal="false" Image="0" />
+    </Item>
+   <Item Name="Movimentos" Target="null" IsMDI="true" IsModal="false" Image="0" >
+    <Item Name="Ass" Target="null" IsMDI="false" IsModal="false" Image="0" >
+      <Item Name="Movimento" Target="WinASS.Movimento" IsMDI="true" IsModal="false" Image="0" />
+      <Item Name="Movimento de Prefeituras" Target="WinASS.MovPrefeituras" IsMDI="true" IsModal="false" Image="0" />
+    </Item>
+  </Item>
+  <Item Name="Relatorios" Target="null" IsMDI="true" IsModal="false" Image="0">
+    <Item Name="Ass" Target="null" IsMDI="false" IsModal="false" Image="0" >
+      <Item Name="Relação de Movimentos" Target="WinASS.RelatorioMovimentos" IsMDI="true" IsModal="false" Image="0" />
+      <Item Name="Relação Por Prefeituras" Target="WinASS.RelatorioPrefeituras" IsMDI="true" IsModal="false" Image="0" />
+    </Item>
+  </Item>
+  <Item Name="Rotinas" Target="null" IsMDI="true" IsModal="false" Image="0">
+    <Item Name="Consolida Dados" Target="WinASS.ConsolidaDados" IsMDI="true" IsModal="false" Image="0" />
+    <Item Name="Backup" Target="WinASS.Backup" IsMDI="true" IsModal="false" Image="0" />
+  </Item>
+
+  <Item Name="Janelas" Target="null" IsMDI="true" IsModal="false" Image="0">
+  </Item>
+
+  <Item Name="Versão" Target="null" IsMDI="true" IsModal="false" Image="0">
+  </Item>
+
+  <Item Name="Sair" Target="Finaliza" IsMDI="true" IsModal="false" Image="0">
+  </Item>
+
+</Item>

@@ -1,0 +1,7 @@
+08:20:28 - Ultimo SQL: 
+Este host não é conhecido
+   em System.Net.Dns.GetAddrInfo(String name)
+   em System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   em System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 193
+

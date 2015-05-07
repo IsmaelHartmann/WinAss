@@ -1,0 +1,278 @@
+08:18:20 - Ultimo SQL:  SELECT Codigo=cast(Codigo as varchar),    Nome  FROM Ass_TiposServicos  WHERE isnull(Data_Hora_Exclusao,'') = ''  ORDER BY Nome   
+Invalid object name 'Ass_TiposServicos'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.TiposServicos_Implem.MostraTabelaTiposServicos(DataGridView& pObjTabela, String pSQL) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos_Implem.vb:linha 316
+
+08:18:24 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.TiposServicos.PreencheCampoPesquisa() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos.vb:linha 915
+   em WinASS.TiposServicos.AtualizaTiposServicos() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos.vb:linha 906
+   em WinASS.TiposServicos.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos.vb:linha 1047
+   em WinASS.TiposServicos.TiposServicos_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos.vb:linha 634
+
+08:21:21 - Ultimo SQL:  SELECT Codigo=cast(Codigo as varchar),    Descricao  FROM Ass_TipoServico  WHERE isnull(Data_Hora_Exclusao,'') = ''  ORDER BY Nome   
+Invalid column name 'Nome'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.TiposServicos_Implem.MostraTabelaTiposServicos(DataGridView& pObjTabela, String pSQL) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos_Implem.vb:linha 316
+
+08:21:22 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.TiposServicos.PreencheCampoPesquisa() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos.vb:linha 915
+   em WinASS.TiposServicos.AtualizaTiposServicos() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos.vb:linha 906
+   em WinASS.TiposServicos.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos.vb:linha 1047
+   em WinASS.TiposServicos.TiposServicos_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos.vb:linha 634
+
+08:28:34 - Ultimo SQL:  SELECT Codigo=cast(Codigo as varchar),    Descricao  FROM Ass_TipoServico  WHERE isnull(Data_Hora_Exclusao,'') = ''  ORDER BY Nome   
+Invalid column name 'Nome'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.TiposServicos_Implem.MostraTabelaTiposServicos(DataGridView& pObjTabela, String pSQL) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos_Implem.vb:linha 316
+
+08:28:35 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.TiposServicos.PreencheCampoPesquisa() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos.vb:linha 915
+   em WinASS.TiposServicos.AtualizaTiposServicos() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos.vb:linha 906
+   em WinASS.TiposServicos.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos.vb:linha 1047
+   em WinASS.TiposServicos.TiposServicos_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos.vb:linha 634
+
+08:29:39 - Ultimo SQL:  SELECT isnull(max(cast(Codigo as integer)),0)+1 Codigo  FROM Ass_TiposServicos WHERE isnumeric(Codigo)<>0 
+Invalid object name 'Ass_TiposServicos'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em WinASS.TiposServicos_Implem.IncluirServico() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposServicos_Implem.vb:linha 141
+
+09:23:14 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:23:16 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:23:17 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:23:17 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:23:18 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:23:23 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:23:54 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:24:14 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:26:27 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:26:42 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:30:38 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia()
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e)
+
+09:30:40 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia()
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e)
+
+09:30:40 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia()
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e)
+
+09:30:44 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia()
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e)
+
+09:30:58 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia()
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e)
+
+09:32:14 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:32:16 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:32:16 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:32:17 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+09:32:18 - Ultimo SQL: 
+A conversão da seqüência de caracteres '' no tipo 'Double' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   em WinASS.TiposAssistencias_Implem.BuscarAssistencia() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias_Implem.vb:linha 186
+   em WinASS.TiposAssistencias.dtgTiposAssistencias_CurrentCellChanged(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\TiposAssistencias.vb:linha 1304
+
+05:28:18 - Ultimo SQL: SELECT IdTecnico, cast(IdTecnico as char(2))+ ' ' + Nome FROM Ass_Tecnicos order by IdTecnico 
+Invalid column name 'IdTecnico'.
+Invalid column name 'IdTecnico'.
+
+
+05:28:20 - Ultimo SQL: SELECT Codigo,  cast(Codigo as char(2))+ ' '+ Descricao  FROM Ass_TiposAssistencia order by Codigo 
+Invalid object name 'Ass_TiposAssistencia'.
+
+
+05:31:53 - Ultimo SQL:  SELECT M.IdMovimento, M.Data, T.Nome, M.Documento, Ass.Descricao TipoDeAssistencia, TS.Descricao TipoDeServico, An.Nome Animal    FROM Ass_Movimento M, Ass_Tecnicos T,Ass_TiposDeAssistencia Ass,Ass_TipoDeServico TS, Ass_Animais An   WHERE M.Tecnico = T.Codigo   AND M.TipoAssistencia = Ass.Codigo  AND M.TipoServico = TS.Codigo  AND M.Animal = An.Codigo  ORDER BY T.Nome,M.Documento 
+Invalid object name 'Ass_TiposDeAssistencia'.
+Invalid object name 'Ass_TipoDeServico'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.Movimento_Implem.MostraTabelaMovimentos(DataGridView& pObjTabela, String pSQL) na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 540
+
+05:31:55 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Movimento.PreencheCampoPesquisa() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1321
+   em WinASS.Movimento.AtualizaTecnicos() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1312
+   em WinASS.Movimento.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1475
+   em WinASS.Movimento.Movimentos_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1012
+
+05:39:02 - Ultimo SQL: INSERT INTO Ass_Movimento (IdMovimento,  Data,  Tecnico,  Documento,  TipoAssistencia,  Animal,  TipoServico,  ValorConducao,  ValorMedicamento,  ValorServico,  ValorEquipamento,  ValorBeneficio,  ValorSemem,  NTouro       ) VALUES ( '1', '16/07/2010', '1',  '1.234',  '4',  '3',  '3',  CAST('$10.00' AS MONEY),  Null,  CAST('$10.00' AS MONEY),  CAST('$10.00' AS MONEY),  Null,  Null,  '') 
+Invalid column name 'ValorConducao'.
+   em WinASS.Movimento_Implem.IncluirMovimento() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 349
+

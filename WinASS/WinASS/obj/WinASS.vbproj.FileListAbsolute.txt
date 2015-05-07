@@ -1,0 +1,252 @@
+C:\Users\Jonas\Documents\Visual Studio 2005\Projects\WinASS\WinASS\bin\Debug\WinASS.exe
+C:\Users\Jonas\Documents\Visual Studio 2005\Projects\WinASS\WinASS\bin\Debug\WinASS.pdb
+C:\Users\Jonas\Documents\Visual Studio 2005\Projects\WinASS\WinASS\bin\Debug\WinASS.xml
+C:\Users\Jonas\Documents\Visual Studio 2005\Projects\WinASS\WinASS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonas\Documents\Visual Studio 2005\Projects\WinASS\WinASS\obj\Debug\WinASS.Resources.resources
+C:\Users\Jonas\Documents\Visual Studio 2005\Projects\WinASS\WinASS\obj\Debug\WinASS.vbproj.GenerateResource.Cache
+C:\Users\Jonas\Documents\Visual Studio 2005\Projects\WinASS\WinASS\obj\Debug\WinASS.exe
+C:\Users\Jonas\Documents\Visual Studio 2005\Projects\WinASS\WinASS\obj\Debug\WinASS.xml
+C:\Users\Jonas\Documents\Visual Studio 2005\Projects\WinASS\WinASS\obj\Debug\WinASS.pdb
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.exe
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.xml
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.pdb
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\ResolveAssemblyReference.cache
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Resources.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Principal.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.vbproj.GenerateResource.Cache
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\WinASS.exe.config
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\WinASS.exe
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\WinASS.pdb
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\WinASS.xml
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\AxInterop.MSCommLib.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\Eyefinder.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\Fortaleza.BackOffice.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\FzComboBox.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\FzNumericBox.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\Interop.Excel.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\TextBox.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\Interop.MSCommLib.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\Interop.VBIDE.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\FzComboBox.xml
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\Fortaleza.BackOffice.pdb
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.ConsultaLog.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.CRUD.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.TelaLogin.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.TelaSenha.resources
+D:\VB.NET2005\WinASS\WinASS\bin\WinASS.exe.config
+D:\VB.NET2005\WinASS\WinASS\bin\WinASS.exe
+D:\VB.NET2005\WinASS\WinASS\bin\WinASS.pdb
+D:\VB.NET2005\WinASS\WinASS\bin\WinASS.xml
+D:\VB.NET2005\WinASS\WinASS\bin\Eyefinder.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Release\WinASS.exe.config
+D:\VB.NET2005\WinASS\WinASS\bin\Release\WinASS.exe
+D:\VB.NET2005\WinASS\WinASS\bin\Release\WinASS.pdb
+D:\VB.NET2005\WinASS\WinASS\bin\Release\WinASS.xml
+D:\VB.NET2005\WinASS\WinASS\bin\Release\AxInterop.MSCommLib.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Release\Eyefinder.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Release\Fortaleza.BackOffice.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Release\FzComboBox.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Release\FzNumericBox.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Release\Interop.Excel.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Release\TextBox.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Release\Interop.Microsoft.Office.Core.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Release\Interop.MSCommLib.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Release\Interop.VBIDE.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Release\FzComboBox.xml
+D:\VB.NET2005\WinASS\WinASS\bin\Release\Fortaleza.BackOffice.pdb
+D:\VB.NET2005\WinASS\WinASS\obj\Release\ResolveAssemblyReference.cache
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Animais.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Associados.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.TiposAssistencias.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.TiposServicos.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Tecnicos.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Cidades.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Estados.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Filiais.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Empresas.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Programas.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Setores.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Usuarios.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.ConsultaLog.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.CRUD.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Movimento.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Resources.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Principal.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.RelatorioMovimentos.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.TelaLogin.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.TelaSenha.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.vbproj.GenerateResource.Cache
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.exe
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.xml
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.pdb
+D:\VB.NET 2005\WinASS\WinASS\bin\Debug\TextBox.xml
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Animais.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Associados.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Prefeituras.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.TiposAssistencias.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.TiposServicos.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Tecnicos.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Cidades.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Estados.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Filiais.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Empresas.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Programas.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Setores.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Usuarios.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Movimento.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.RelatorioMovimentos.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.Parametros.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.RelatorioPrefeituras.resources
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\WinASS.exe.config
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.exe
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.xml
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.pdb
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\WinASS.exe
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\WinASS.pdb
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\WinASS.xml
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\AxInterop.MSCommLib.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\Eyefinder.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\Fortaleza.BackOffice.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\FzComboBox.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\FzNumericBox.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\Interop.Excel.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\TextBox.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\Interop.Microsoft.Office.Core.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\Interop.MSCommLib.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\Interop.VBIDE.dll
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\TextBox.xml
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\FzComboBox.xml
+D:\VB.NET 2005\WinASS\WinASS\bin\Release\Fortaleza.BackOffice.pdb
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\ResolveAssemblyReference.cache
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Animais.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Associados.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Prefeituras.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.TiposAssistencias.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.TiposServicos.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Tecnicos.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Cidades.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Estados.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Filiais.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Empresas.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Parametros.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Programas.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Setores.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Usuarios.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.ConsultaLog.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.CRUD.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Movimento.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Resources.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.Principal.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.RelatorioMovimentos.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.RelatorioPrefeituras.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.TelaLogin.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.TelaSenha.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.vbproj.GenerateResource.Cache
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\WinASS.exe.config
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.exe
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.xml
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.pdb
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\WinASS.exe
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\WinASS.pdb
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\WinASS.xml
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\AxInterop.MSCommLib.dll
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\Eyefinder.dll
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\Fortaleza.BackOffice.dll
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\FzComboBox.dll
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\FzNumericBox.dll
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\Interop.Excel.dll
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\Interop.Microsoft.Office.Core.dll
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\Interop.MSCommLib.dll
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\Interop.VBIDE.dll
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\TextBox.xml
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\FzComboBox.xml
+E:\VB.NET2005\WinASS\WinASS\bin\Debug\Fortaleza.BackOffice.pdb
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\ResolveAssemblyReference.cache
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Animais.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Associados.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Prefeituras.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.TiposAssistencias.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.TiposServicos.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Tecnicos.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Cidades.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Estados.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Filiais.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Empresas.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Parametros.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Programas.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Setores.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Usuarios.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.ConsultaLog.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.CRUD.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Movimento.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Resources.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Principal.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.RelatorioMovimentos.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.RelatorioPrefeituras.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.TelaLogin.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.TelaSenha.resources
+E:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.vbproj.GenerateResource.Cache
+D:\VB.NET 2005\WinASS\WinASS\obj\Debug\WinASS.ConsolidaDados.resources
+D:\VB.NET 2005\WinASS\WinASS\obj\Release\WinASS.ConsolidaDados.resources
+D:\VB.NET2005\WinASS\WinASS\bin\Release\TextBox.xml
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Prefeituras.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Parametros.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.RelatorioPrefeituras.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.ConsolidaDados.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.SelecionaBanco.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.MovPrefeituras.resources
+D:\VB.NET2005\WinASS\WinASS\bin\Release\CryptographyCFF.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Release\FtpFZ.dll
+D:\VB.NET2005\WinASS\WinASS\obj\Release\WinASS.Backup.resources
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\WinASS.exe.config
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\WinASS.exe
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\WinASS.pdb
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\WinASS.xml
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\AxInterop.MSCommLib.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\CryptographyCFF.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\Eyefinder.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\Fortaleza.BackOffice.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\FtpFZ.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\FzComboBox.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\FzNumericBox.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\Interop.Excel.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\TextBox.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\Interop.MSCommLib.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\Interop.VBIDE.dll
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\TextBox.xml
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\FzComboBox.xml
+D:\VB.NET2005\WinASS\WinASS\bin\Debug\Fortaleza.BackOffice.pdb
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\ResolveAssemblyReference.cache
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Animais.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Associados.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Prefeituras.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.TiposServicos.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.TiposAssistencias.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Tecnicos.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Cidades.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Estados.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Filiais.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Empresas.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Parametros.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Programas.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Setores.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Usuarios.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.ConsultaLog.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.MovPrefeituras.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Backup.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.SelecionaBanco.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.CRUD.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Movimento.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Resources.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.Principal.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.RelatorioMovimentos.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.RelatorioPrefeituras.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.ConsolidaDados.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.TelaLogin.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.TelaSenha.resources
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.vbproj.GenerateResource.Cache
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.exe
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.xml
+D:\VB.NET2005\WinASS\WinASS\obj\Debug\WinASS.pdb

@@ -1,0 +1,116 @@
+11:06:52 - Ultimo SQL:  SELECT Codigo=cast(Codigo as varchar),    Nome  FROM Ass_Prefeituras  WHERE isnull(Data_Hora_Exclusao,'') = ''  ORDER BY Nome   
+Invalid object name 'Ass_Prefeituras'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.Prefeituras_Implem.MostraTabelaPrefeituras(DataGridView& pObjTabela, String pSQL) na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Prefeituras_Implem.vb:linha 345
+
+11:06:55 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Prefeituras.PreencheCampoPesquisa() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Prefeituras.vb:linha 918
+   em WinASS.Prefeituras.AtualizaPrefeituras() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Prefeituras.vb:linha 909
+   em WinASS.Prefeituras.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Prefeituras.vb:linha 1062
+   em WinASS.Prefeituras.Prefeituras_Load(Object sender, EventArgs e) na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Prefeituras.vb:linha 634
+
+11:15:46 - Ultimo SQL: SELECT * FROM Ass_Tecnicos WHERE Codigo='6'
+CRMV
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Tecnicos_Implem.BuscarTecnico() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Tecnicos_Implem.vb:linha 123
+
+11:15:47 - Ultimo SQL: SELECT * FROM Ass_Tecnicos WHERE Codigo='6'
+CRMV
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Tecnicos_Implem.BuscarTecnico() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Tecnicos_Implem.vb:linha 123
+
+11:15:47 - Ultimo SQL: SELECT * FROM Ass_Tecnicos WHERE Codigo='6'
+CRMV
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Tecnicos_Implem.BuscarTecnico() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Tecnicos_Implem.vb:linha 123
+
+11:15:48 - Ultimo SQL: SELECT * FROM Ass_Tecnicos WHERE Codigo='6'
+CRMV
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Tecnicos_Implem.BuscarTecnico() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Tecnicos_Implem.vb:linha 123
+
+11:15:48 - Ultimo SQL: SELECT * FROM Ass_Tecnicos WHERE Codigo='6'
+CRMV
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Tecnicos_Implem.BuscarTecnico() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Tecnicos_Implem.vb:linha 123
+
+11:18:32 - Ultimo SQL: SELECT * FROM Ass_Tecnicos WHERE Codigo='6'
+O operador '<>' não está definido para seqüência de caracteres "" e tipo 'DBNull'.
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.Tecnicos_Implem.AlterarTecnico() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Tecnicos_Implem.vb:linha 227
+
+11:18:34 - Ultimo SQL: SELECT * FROM Ass_Tecnicos WHERE Codigo='6'
+O operador '<>' não está definido para seqüência de caracteres "" e tipo 'DBNull'.
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.Tecnicos_Implem.AlterarTecnico() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Tecnicos_Implem.vb:linha 227
+
+11:29:51 - Ultimo SQL: SELECT Codigo, CAST(CRMV AS VARCHAR(5) + Nome FROM Ass_Tecnicos WHERE isnull(Data_Hora_Exclusao,'') = '' ORDER BY Codigo 
+Incorrect syntax near '+'.
+
+
+11:30:15 - Ultimo SQL: SELECT Codigo, CAST(CRMV AS VARCHAR(5) + Nome FROM Ass_Tecnicos WHERE isnull(Data_Hora_Exclusao,'') = '' ORDER BY CRMV 
+Incorrect syntax near '+'.
+
+
+02:18:17 - Ultimo SQL:  UPDATE Parametros SET  Valor_Bernicida = '1,00', Valor_Vermifugo = '1,00', Valor_Fasciolicida = '1,00'  
+Invalid object name 'Parametros'.
+   em WinASS.Parametros_Implem.AlterarParametro() na D:\VB.NET 2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 151
+
+02:49:04 - Ultimo SQL:  UPDATE Parametros SET  Valor_Bernicida = ' '2.00' ', Valor_Vermifugo = ' '1.00' ', Valor_Fasciolicida = ' '3.00' '  
+Incorrect syntax near '2.00'.
+   em WinASS.Parametros_Implem.AlterarParametro() na D:\VB.NET 2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 151
+
+02:49:06 - Ultimo SQL:  UPDATE Parametros SET  Valor_Bernicida = ' '2.00' ', Valor_Vermifugo = ' '1.00' ', Valor_Fasciolicida = ' '3.00' '  
+Incorrect syntax near '2.00'.
+   em WinASS.Parametros_Implem.AlterarParametro() na D:\VB.NET 2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 151
+
+02:49:40 - Ultimo SQL:  UPDATE Parametros SET  Valor_Bernicida =  '2.00' , Valor_Vermifugo =  '1.00' , Valor_Fasciolicida =  '3.00'   
+Invalid object name 'Parametros'.
+   em WinASS.Parametros_Implem.AlterarParametro() na D:\VB.NET 2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 151
+
+03:59:22 - Ultimo SQL: SET DATEFORMAT DMY   SELECT A.Nome, A.Endereco, A.Matricula, CONVERT(VARCHAR(10), M.Data, 103), T.CRMV  FROM Ass_Movimento M, Ass_Associados A, Ass_Tecnicos T, Ass_prefeituras P  WHERE M.Associado = A.Codigo  AND M.Tecnico = T.Codigo  AND A.Cidade = P.Codigo  WHERE M.Data BETWEEN '01/06/2011' and '21/06/2011' AND P.Codigo = '1'  ORDER BY A.Nome 
+Incorrect syntax near the keyword 'WHERE'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.RelatorioPrefeituras.LerItens(String pSQL) na D:\VB.NET 2005\WinASS\WinASS\RelatoriosAss\RelatorioPrefeituras.vb:linha 395
+

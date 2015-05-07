@@ -1,0 +1,247 @@
+02:36:36 - Ultimo SQL:  SELECT M.IdMovimento, M.Data, T.Nome, AA.Nome,  M.Documento, Ass.Descricao TipoDeAssistencia,  TS.Descricao TipoDeServico, An.Nome Animal    FROM Ass_Tecnicos T,Ass_TipoAssistencia Ass,  Ass_TipoServico TS, Ass_Associados AA, Ass_Movimento M  LEFT JOIN Ass_Animais An ON M.Animal = An.Codigo  WHERE M.Tecnico = T.Codigo   AND M.TipoAssistencia = Ass.Codigo  AND M.Associado = AA.Codigo  AND M.TipoServico = TS.Codigo  AND isnull(M.Data_Hora_Exclusao,'') = ''  ORDER BY T.Nome,M.Documento 
+Não é possível encontrar a coluna 8.
+   em System.Data.DataColumnCollection.get_Item(Int32 index)
+   em WinASS.Movimento_Implem.MostraTabelaMovimentos(DataGridView& pObjTabela, String pSQL) na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 752
+
+02:36:38 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Movimento.PreencheCampoPesquisa() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1639
+   em WinASS.Movimento.AtualizaMovimentos() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1630
+   em WinASS.Movimento.LimpaTela(Boolean wNovoRegistro) na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1818
+   em WinASS.Movimento.Movimentos_Load(Object sender, EventArgs e) na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1300
+
+02:36:57 - Ultimo SQL: INSERT INTO Ass_Movimento (IdMovimento,  Data,  Tecnico,  Prefeitura,  Associado,  Documento,  TipoAssistencia,  Animal,  TipoEverminacao,  Cabecas,  ValorMaodeObra,  ValorEverminacao,  TipoServico,  ValorConducao,  ValorMedicamento,  ValorServico,  ValorEquipamento,  ValorBeneficio,  ValorSemem,  ValorVisita,  NTouro,  Talao,  Codigo_Usuario_Cadastro,  Data_Hora_Cadastro       ) VALUES ( '16', '08/07/2011', '6',  '2',  '4',  '10',  '1',  '1',  '1',  '2',  '10',  Null,  Null,  CAST('$65.00' AS MONEY),  CAST('$65.00' AS MONEY),  CAST('$65.00' AS MONEY),  CAST('$65.00' AS MONEY),  Null,  Null,  Null,  '',  '321/321.321.3',  '1',  '08/07/2011 14:36:57')
+Não é possível inserir o valor NULL na coluna 'TipoServico', tabela 'CTAASS.dbo.Ass_Movimento'; a coluna não permite nulos. Falha em INSERT.
+A instrução foi finalizada.
+   em WinASS.Movimento_Implem.IncluirMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 506
+
+02:37:39 - Ultimo SQL:  SELECT M.IdMovimento, M.Data, T.Nome, AA.Nome,  M.Documento, Ass.Descricao TipoDeAssistencia,  TS.Descricao TipoDeServico, An.Nome Animal    FROM Ass_Tecnicos T,Ass_TipoAssistencia Ass,  Ass_TipoServico TS, Ass_Associados AA, Ass_Movimento M  LEFT JOIN Ass_Animais An ON M.Animal = An.Codigo  WHERE M.Tecnico = T.Codigo   AND M.TipoAssistencia = Ass.Codigo  AND M.Associado = AA.Codigo  AND M.TipoServico = TS.Codigo  AND isnull(M.Data_Hora_Exclusao,'') = ''  ORDER BY T.Nome,M.Documento 
+Não é possível encontrar a coluna 8.
+   em System.Data.DataColumnCollection.get_Item(Int32 index)
+   em WinASS.Movimento_Implem.MostraTabelaMovimentos(DataGridView& pObjTabela, String pSQL) na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 752
+
+02:37:41 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Movimento.PreencheCampoPesquisa() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1639
+   em WinASS.Movimento.AtualizaMovimentos() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1630
+   em WinASS.Movimento.LimpaTela(Boolean wNovoRegistro) na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1818
+   em WinASS.Movimento.Movimentos_Load(Object sender, EventArgs e) na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1300
+
+02:56:55 - Ultimo SQL:  SELECT M.IdMovimento, M.TipoEverminacao, M.Data, T.Nome, AA.Nome,  M.Documento, Ass.Descricao TipoDeAssistencia,  TS.Descricao TipoDeServico, An.Nome Animal    FROM Ass_Tecnicos T,Ass_TipoAssistencia Ass,  Ass_TipoServico TS, Ass_Associados AA, Ass_Movimento M  LEFT JOIN Ass_Animais An ON M.Animal = An.Codigo  WHERE M.Tecnico = T.Codigo   AND M.TipoAssistencia = Ass.Codigo  AND M.Associado = AA.Codigo  AND M.TipoServico = TS.Codigo  AND isnull(M.Data_Hora_Exclusao,'') = ''  ORDER BY T.Nome,M.Documento 
+Uma coluna chamada 'Data' já pertence a esta DataTable.
+   em System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column, DataTable table)
+   em System.Data.DataColumn.set_ColumnName(String value)
+   em WinASS.Movimento_Implem.MostraTabelaMovimentos(DataGridView& pObjTabela, String pSQL) na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 745
+
+02:57:34 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Movimento.PreencheCampoPesquisa() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1639
+   em WinASS.Movimento.AtualizaMovimentos() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1630
+   em WinASS.Movimento.LimpaTela(Boolean wNovoRegistro) na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1818
+   em WinASS.Movimento.Movimentos_Load(Object sender, EventArgs e) na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1300
+
+03:00:40 - Ultimo SQL: SELECT Codigo, CAST(CRMV + ' ' + Nome AS VARCHAR) FROM Ass_Tecnicos WHERE isnull(Data_Hora_Exclusao,'') = '' ORDER BY CRMV 
+Invalid column name 'CRMV'.
+Invalid column name 'CRMV'.
+
+
+03:00:48 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:00:51 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:00:51 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:00:52 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:00:54 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:01:08 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '3'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:22:02 - Ultimo SQL: SELECT Codigo, CAST(CRMV + ' ' + Nome AS VARCHAR) FROM Ass_Tecnicos WHERE isnull(Data_Hora_Exclusao,'') = '' ORDER BY CRMV 
+Invalid column name 'CRMV'.
+Invalid column name 'CRMV'.
+
+
+03:22:05 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:22:05 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:22:06 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:22:06 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:22:14 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:22:19 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '3'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:22:23 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '5'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:22:25 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '4'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:22:36 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='1'
+Matricula
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado() na E:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados_Implem.vb:linha 259
+
+03:22:39 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='2'
+Matricula
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado() na E:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados_Implem.vb:linha 259
+
+03:22:41 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='1'
+Matricula
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado() na E:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados_Implem.vb:linha 259
+
+03:23:07 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:23:08 - Ultimo SQL:  SELECT * FROM Ass_Movimento  WHERE IdMovimento = '6'
+Prefeitura
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Movimento_Implem.BuscarMovimento() na E:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 325
+
+03:25:32 - Ultimo SQL: 
+*** ERRO DE ACESSO AO BANCO DE DADOS *** >> Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Provedor de Pipes Nomeados, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   em System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   em System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   em System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em WinASS.VariaveisGlobais.VerificaConexaoBD(SqlConnection& pConexao, String pConnectionString) na E:\VB.NET2005\WinASS\WinASS\Globais\VariaveisGlobais.vb:linha 122
+
+03:25:36 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Principal.AtualizaDadosUsuario() na E:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 256
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na E:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 224
+
+03:49:41 - Ultimo SQL: 
+*** ERRO DE ACESSO AO BANCO DE DADOS *** >> Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Provedor de Pipes Nomeados, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   em System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   em System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   em System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em WinASS.VariaveisGlobais.VerificaConexaoBD(SqlConnection& pConexao, String pConnectionString) na E:\VB.NET2005\WinASS\WinASS\Globais\VariaveisGlobais.vb:linha 122
+
+03:49:45 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Principal.AtualizaDadosUsuario() na E:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 256
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na E:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 224
+
+05:16:06 - Ultimo SQL: 
+Este host não é conhecido
+   em System.Net.Dns.GetAddrInfo(String name)
+   em System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   em System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na E:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 183
+
+05:16:17 - Ultimo SQL: 
+Este host não é conhecido
+   em System.Net.Dns.GetAddrInfo(String name)
+   em System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   em System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na E:\VB.NET2005\WinASS\WinASS\Principal.vb:linha 183
+

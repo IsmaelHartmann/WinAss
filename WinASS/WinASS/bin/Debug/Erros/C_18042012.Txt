@@ -1,0 +1,11 @@
+10:17:29 - Ultimo SQL: SELECT * FROM Ass_Movimento  WHERE Documento = '2000' AND isnull(Data_Hora_Exclusao,'') = '' 
+Já existe um DataReader aberto associado a este comando que deve ser fechado primeiro.
+   em System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   em System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   em System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em WinASS.Movimento_Implem.VerificaExistenciaDocumento(String& pIdMovimento, String& pCodTecnico)
+

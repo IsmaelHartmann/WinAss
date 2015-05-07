@@ -1,0 +1,87 @@
+02:15:11 - Ultimo SQL:  INSERT INTO Ass_Associados (Codigo,   Nome,                        Cidade,                      Endereco,                    Estado,                        CEP,                        CNPJ,                        InscricaoEstadual,                        Situacao,                        DataNasc,                        Telefone,                        Codigo_Usuario_Cadastro,   Data_Hora_Cadastro   ) VALUES ( '1',                'JONAS DHEIN',            '4242',            'RUA MAJOR BANDEIRA 127',            'RS',            '95.890-000',            '01748060007',            '1234565676',            'A',            '14/07/1989',            '',            '1',  '27/07/2010 14:14:15' )  
+Invalid column name 'DataNasc'.
+   em WinASS.Associados_Implem.IncluirAssociado()
+
+02:15:23 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='1'
+DataNasc
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado()
+
+02:15:25 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='1'
+DataNasc
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado()
+
+02:15:27 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='1'
+DataNasc
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado()
+
+02:20:30 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='1'
+mData_Hora_Cadastro
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados_Implem.vb:linha 212
+
+02:20:35 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='1'
+mData_Hora_Cadastro
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados_Implem.vb:linha 212
+
+02:20:36 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='1'
+mData_Hora_Cadastro
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados_Implem.vb:linha 212
+
+02:20:36 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='1'
+mData_Hora_Cadastro
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados_Implem.vb:linha 212
+
+02:20:37 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='1'
+mData_Hora_Cadastro
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado() na D:\VB.NET2005\WinASS\WinASS\Cadastros_Ass\Associados_Implem.vb:linha 212
+
+05:07:53 - Ultimo SQL:  SELECT M.IdMovimento, M.Data, T.Nome, As.Nome,  M.Documento, Ass.Descricao TipoDeAssistencia,  TS.Descricao TipoDeServico, An.Nome Animal    FROM Ass_Movimento M, Ass_Tecnicos T,Ass_TipoAssistencia Ass,  Ass_TipoServico TS, Ass_Animais An, Ass_Associados As   WHERE M.Tecnico = T.Codigo   AND M.TipoAssistencia = Ass.Codigo  AND M.Associado = As.Codigo  AND M.TipoServico = TS.Codigo  AND M.Animal = An.Codigo  AND isnull(M.Data_Hora_Exclusao,'') = ''  ORDER BY T.Nome,M.Documento 
+Incorrect syntax near the keyword 'As'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   em System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.Movimento_Implem.MostraTabelaMovimentos(DataGridView& pObjTabela, String pSQL) na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 581
+
+05:07:55 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Movimento.PreencheCampoPesquisa() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1416
+   em WinASS.Movimento.AtualizaMovimentos() na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1407
+   em WinASS.Movimento.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1574
+   em WinASS.Movimento.Movimentos_Load(Object sender, EventArgs e) na D:\VB.NET2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1097
+

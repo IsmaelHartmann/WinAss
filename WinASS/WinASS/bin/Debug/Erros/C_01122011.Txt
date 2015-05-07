@@ -1,0 +1,49 @@
+02:02:35 - Ultimo SQL: SELECT * FROM C_Parametros  
+Codigos_Animais
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Parametros_Implem.BuscarParametro() na D:\VB.NET 2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 126
+
+02:08:27 - Ultimo SQL: 
+A conversão da seqüência de caracteres ' like '%1%'' no tipo 'Boolean' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   em WinASS.Movimento.cbAnimal_SelectedValueChanged(Object sender, EventArgs e) na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 2344
+   em System.Windows.Forms.ListControl.OnSelectedValueChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.OnSelectedValueChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Movimento.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 2019
+   em WinASS.Movimento.Movimentos_Load(Object sender, EventArgs e) na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1507
+
+02:09:01 - Ultimo SQL: 
+A conversão da seqüência de caracteres ' like '%1%'' no tipo 'Boolean' não é válida.
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(String Value)
+   em Microsoft.VisualBasic.CompilerServices.Conversions.ToBoolean(Object Value)
+   em WinASS.Movimento.cbAnimal_SelectedValueChanged(Object sender, EventArgs e) na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 2344
+   em System.Windows.Forms.ListControl.OnSelectedValueChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.OnSelectedValueChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)
+   em FzComboBox.FzCombobox.OnSelectedIndexChanged(EventArgs e)
+   em System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   em WinASS.Movimento.LimpaTela(Boolean wNovoRegistro) na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 2019
+   em WinASS.Movimento.Movimentos_Load(Object sender, EventArgs e) na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento.vb:linha 1507
+
+04:51:24 - Ultimo SQL:  SELECT U.*,S.Nome NomeSetor         FROM  C_Usuarios U,C_Setores S  WHERE      Login='3' AND      Senha='3' AND      U.Setor=S.Codigo 
+A permissão SELECT foi negada no objeto 'C_Setores', banco de dados 'CTAASS', esquema 'dbo'.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em WinASS.TelaLogin.VerificaLogin(String pLogin, String pSenha) na D:\VB.NET 2005\WinASS\WinASS\TelaLogin.vb:linha 91
+

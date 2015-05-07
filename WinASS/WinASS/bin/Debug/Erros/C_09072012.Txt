@@ -1,0 +1,78 @@
+03:15:21 - Ultimo SQL: 
+*** ERRO DE ACESSO AO BANCO DE DADOS *** >> Cannot open database requested in login 'CTAASS'. Login fails.
+Login failed for user 'UsuarioFAS'.
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   em System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   em System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   em System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em WinASS.VariaveisGlobais.VerificaConexaoBD(SqlConnection& pConexao, String pConnectionString) na D:\VB.NET 2005\WinASS\WinASS\Globais\VariaveisGlobais.vb:linha 122
+
+03:15:24 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Principal.AtualizaDadosUsuario() na D:\VB.NET 2005\WinASS\WinASS\Principal.vb:linha 266
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET 2005\WinASS\WinASS\Principal.vb:linha 234
+
+03:16:48 - Ultimo SQL: 
+*** ERRO DE ACESSO AO BANCO DE DADOS *** >> Cannot open database requested in login 'CTAASS'. Login fails.
+Login failed for user 'UsuarioFAS'.
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   em System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   em System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   em System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em WinASS.VariaveisGlobais.VerificaConexaoBD(SqlConnection& pConexao, String pConnectionString) na D:\VB.NET 2005\WinASS\WinASS\Globais\VariaveisGlobais.vb:linha 122
+
+03:16:50 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Principal.AtualizaDadosUsuario() na D:\VB.NET 2005\WinASS\WinASS\Principal.vb:linha 266
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET 2005\WinASS\WinASS\Principal.vb:linha 234
+
+03:17:52 - Ultimo SQL: 
+*** ERRO DE ACESSO AO BANCO DE DADOS *** >> Cannot open database requested in login 'CTAASS'. Login fails.
+Login failed for user 'UsuarioFAS'.
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   em System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   em System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   em System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em WinASS.VariaveisGlobais.VerificaConexaoBD(SqlConnection& pConexao, String pConnectionString) na D:\VB.NET 2005\WinASS\WinASS\Globais\VariaveisGlobais.vb:linha 122
+
+03:17:57 - Ultimo SQL: 
+Referência de objeto não definida para uma instância de um objeto.
+   em WinASS.Principal.AtualizaDadosUsuario() na D:\VB.NET 2005\WinASS\WinASS\Principal.vb:linha 266
+   em WinASS.Principal.Principal_Load(Object sender, EventArgs e) na D:\VB.NET 2005\WinASS\WinASS\Principal.vb:linha 234
+

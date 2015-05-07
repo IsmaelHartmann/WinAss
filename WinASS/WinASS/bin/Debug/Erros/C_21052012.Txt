@@ -1,0 +1,28 @@
+03:55:46 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='2169'
+MatriculaBRF
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Associados_Implem.vb:linha 298
+
+03:55:48 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='2169'
+MatriculaBRF
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Associados_Implem.vb:linha 298
+
+03:55:49 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='2169'
+MatriculaBRF
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Associados_Implem.vb:linha 298
+
+03:55:50 - Ultimo SQL: SELECT * FROM Ass_Associados WHERE Codigo='2169'
+MatriculaBRF
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Associados_Implem.BuscarAssociado() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\Associados_Implem.vb:linha 298
+

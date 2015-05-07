@@ -1,0 +1,43 @@
+04:36:14 - Ultimo SQL: SET DATEFORMAT DMY   SELECT isnull(M.Canhoto,''), CAST(A.Nome AS VARCHAR(100)), A.Endereco,  M.Talao, CONVERT(VARCHAR(10), M.Data, 103), T.CRMV,  Valor = isnull(M.ValorConducao,0)  FROM Ass_Movimento M, Ass_Associados A, Ass_Tecnicos T, Ass_prefeituras P, Ass_TipoAssistencia Ass  WHERE M.Associado = A.Codigo  AND Ass.Codigo = M.TipoAssistencia  AND M.Tecnico = T.Codigo  AND M.Prefeitura = P.Codigo  AND M.Data BETWEEN '01/08/2011' AND '07/10/2011' AND P.Codigo = '33'  AND Ass.Codigo NOT IN('4','5')  AND isnull(M.Documento,0) = 0 AND isnull(M.Canhoto,0) <> 0  ORDER BY A.Nome 
+Falha ao converter o varchar valor '25.232' para o tipo de dados int.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   em System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   em System.Data.SqlClient.SqlDataReader.Read()
+   em System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   em System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   em System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   em System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   em System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   em WinASS.RelatorioPrefeituras.LerItens(String pSQL) na D:\VB.NET 2005\WinASS\WinASS\RelatoriosAss\RelatorioPrefeituras.vb:linha 455
+
+04:38:06 - Ultimo SQL:  UPDATE Ass_Movimento SET  Animal = '1', Documento = Null, Canhoto =  '123' , TipoEverminacao = '' WHERE   IdMovimento = '1168'
+Não é possível reverter AlterarMovimento. Não foi encontrado ponto de salvamento ou transação com este nome.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   em System.Data.SqlClient.SqlInternalTransaction.Rollback(String transactionName)
+   em System.Data.SqlClient.SqlTransaction.Rollback(String transactionName)
+   em WinASS.Movimento_Implem.AlterarMovimento()
+
+04:43:58 - Ultimo SQL:  UPDATE Ass_Movimento SET  Animal = '1', Documento = Null, Canhoto =  '123' , TipoEverminacao = '' WHERE   IdMovimento = '1158'
+Não é possível reverter AlterarMovimento. Não foi encontrado ponto de salvamento ou transação com este nome.
+   em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   em System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   em System.Data.SqlClient.SqlInternalTransaction.Rollback(String transactionName)
+   em System.Data.SqlClient.SqlTransaction.Rollback(String transactionName)
+   em WinASS.Movimento_Implem.AlterarMovimento() na D:\VB.NET 2005\WinASS\WinASS\Movimentos\Movimento_Implem.vb:linha 739
+

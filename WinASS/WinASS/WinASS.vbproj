@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{258DE505-4741-4D94-80C2-6A764E889F6A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WinASS.My.MyApplication</StartupObject>
+    <RootNamespace>WinASS</RootNamespace>
+    <AssemblyName>WinASS</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>Imagens\Application.ico</ApplicationIcon>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WinASS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DefineConstants>ConstantDebug=True</DefineConstants>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>Full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WinASS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DefineConstants>ConstantDebug=True</DefineConstants>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.MSCommLib, Version=1.1.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AxInterop.MSCommLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CryptographyCFF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\CryptographyCFF.dll</HintPath>
+    </Reference>
+    <Reference Include="Eyefinder, Version=1.0.3.0, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Eyefinder.dll</HintPath>
+    </Reference>
+    <Reference Include="Fortaleza.BackOffice, Version=1.0.3793.22134, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Fortaleza.BackOffice.dll</HintPath>
+    </Reference>
+    <Reference Include="FtpFZ, Version=1.0.3891.33049, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\FtpFZ.dll</HintPath>
+    </Reference>
+    <Reference Include="FzComboBox, Version=1.0.3565.27206, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\FzComboBox.dll</HintPath>
+    </Reference>
+    <Reference Include="FzNumericBox, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\FzNumericBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel, Version=1.4.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TextBox, Version=2.0.3516.30503, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\FzFlexBox\bin\Release\TextBox.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Cadastros_Ass\Animais.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros_Ass\AnimaisBOFactory.vb" />
+    <Compile Include="Cadastros_Ass\Animais_Implem.vb" />
+    <Compile Include="Cadastros_Ass\Associados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros_Ass\AssociadosBOFactory.vb" />
+    <Compile Include="Cadastros_Ass\Associados_Implem.vb" />
+    <Compile Include="Cadastros_Ass\Prefeituras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros_Ass\PrefeiturasBOFactory.vb" />
+    <Compile Include="Cadastros_Ass\Prefeituras_Implem.vb" />
+    <Compile Include="Cadastros_Ass\TiposServicos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros_Ass\TiposServicosBOFactory.vb" />
+    <Compile Include="Cadastros_Ass\TiposServicos_Implem.vb" />
+    <Compile Include="Cadastros_Ass\TiposAssistencias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros_Ass\TiposAssistenciasBOFactory.vb" />
+    <Compile Include="Cadastros_Ass\TiposAssistencias_Implem.vb" />
+    <Compile Include="Cadastros_Ass\Tecnicos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros_Ass\TecnicosBOFactory.vb" />
+    <Compile Include="Cadastros_Ass\Tecnicos_Implem.vb" />
+    <Compile Include="Cadastros_Ass\Valores_Prefeituras_TipoServicoBOFactory.vb" />
+    <Compile Include="Cadastros_Ass\Valores_Prefeituras_TipoServico_Implem.vb" />
+    <Compile Include="Cadatros_Sis\Cidades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadatros_Sis\CidadesBOFactory.vb" />
+    <Compile Include="Cadatros_Sis\Cidades_Implem.vb" />
+    <Compile Include="Cadatros_Sis\Estados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadatros_Sis\EstadosBOFactory.vb" />
+    <Compile Include="Cadatros_Sis\Estados_Implem.vb" />
+    <Compile Include="Cadatros_Sis\Filiais.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadatros_Sis\FiliaisBOFactory.vb" />
+    <Compile Include="Cadatros_Sis\Filiais_Implem.vb" />
+    <Compile Include="Cadatros_Sis\Empresas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadatros_Sis\EmpresasBOFactory.vb" />
+    <Compile Include="Cadatros_Sis\Empresas_Implem.vb" />
+    <Compile Include="Cadatros_Sis\Parametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadatros_Sis\ParametrosBOFactory.vb" />
+    <Compile Include="Cadatros_Sis\Parametros_Implem.vb" />
+    <Compile Include="Cadatros_Sis\Programas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadatros_Sis\ProgramasBOFactory.vb" />
+    <Compile Include="Cadatros_Sis\ProgramasLiberacoesBOFactory.vb" />
+    <Compile Include="Cadatros_Sis\ProgramasLiberacoes_Implem.vb" />
+    <Compile Include="Cadatros_Sis\Programas_Implem.vb" />
+    <Compile Include="Cadatros_Sis\Setores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadatros_Sis\SetoresBOFactory.vb" />
+    <Compile Include="Cadatros_Sis\Setores_Implem.vb" />
+    <Compile Include="Cadatros_Sis\Usuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadatros_Sis\UsuariosBOFactory.vb" />
+    <Compile Include="Cadatros_Sis\Usuarios_Implem.vb" />
+    <Compile Include="ConsultaLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaLogBOFactory.vb" />
+    <Compile Include="ConsultaLog_Implem.vb" />
+    <Compile Include="Movimentos\MovPrefeituras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movimentos\MovPrefeiturasBOFactory.vb" />
+    <Compile Include="Movimentos\MovPrefeituras_Implem.vb" />
+    <Compile Include="Rotinas\Backup.Designer.vb">
+      <DependentUpon>Backup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rotinas\Backup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelecionaBanco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Globais\GenProc.vb" />
+    <Compile Include="Globais\Leituras.vb" />
+    <Compile Include="Globais\Resolution.vb" />
+    <Compile Include="Globais\ValoresPorExtenso.vb" />
+    <Compile Include="Globais\VariaveisGlobais.vb" />
+    <Compile Include="Movimentos\Movimento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movimentos\MovimentoBOFactory.vb" />
+    <Compile Include="Movimentos\Movimento_Implem.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RelatoriosAss\RelatorioMovimentos.Designer.vb">
+      <DependentUpon>RelatorioMovimentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RelatoriosAss\RelatorioMovimentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RelatoriosAss\RelatorioPrefeituras.Designer.vb">
+      <DependentUpon>RelatorioPrefeituras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RelatoriosAss\RelatorioPrefeituras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rotinas\ConsolidaDados.Designer.vb">
+      <DependentUpon>ConsolidaDados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rotinas\ConsolidaDados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaLogin.Designer.vb">
+      <DependentUpon>TelaLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TelaLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaSenha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cadastros_Ass\Animais.resx">
+      <DependentUpon>Animais.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros_Ass\Associados.resx">
+      <DependentUpon>Associados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros_Ass\Prefeituras.resx">
+      <DependentUpon>Prefeituras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros_Ass\TiposServicos.resx">
+      <DependentUpon>TiposServicos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros_Ass\TiposAssistencias.resx">
+      <DependentUpon>TiposAssistencias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros_Ass\Tecnicos.resx">
+      <DependentUpon>Tecnicos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadatros_Sis\Cidades.resx">
+      <DependentUpon>Cidades.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadatros_Sis\Estados.resx">
+      <DependentUpon>Estados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadatros_Sis\Filiais.resx">
+      <DependentUpon>Filiais.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadatros_Sis\Empresas.resx">
+      <DependentUpon>Empresas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadatros_Sis\Parametros.resx">
+      <DependentUpon>Parametros.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadatros_Sis\Programas.resx">
+      <DependentUpon>Programas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadatros_Sis\Setores.resx">
+      <DependentUpon>Setores.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadatros_Sis\Usuarios.resx">
+      <DependentUpon>Usuarios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaLog.resx">
+      <DependentUpon>ConsultaLog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movimentos\MovPrefeituras.resx">
+      <DependentUpon>MovPrefeituras.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rotinas\Backup.resx">
+      <DependentUpon>Backup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelecionaBanco.resx">
+      <DependentUpon>SelecionaBanco.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD.resx">
+      <DependentUpon>CRUD.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movimentos\Movimento.resx">
+      <DependentUpon>Movimento.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelatoriosAss\RelatorioMovimentos.resx">
+      <DependentUpon>RelatorioMovimentos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelatoriosAss\RelatorioPrefeituras.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RelatorioPrefeituras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rotinas\ConsolidaDados.resx">
+      <DependentUpon>ConsolidaDados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaLogin.resx">
+      <DependentUpon>TelaLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaSenha.resx">
+      <DependentUpon>TelaSenha.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Menu.xml" />
+    <Content Include="Componentes\Eyefinder.dll" />
+    <Content Include="Componentes\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Imagens\7706_16x16.png" />
+    <Content Include="Imagens\7884_16x16.png" />
+    <Content Include="Imagens\Application.ico" />
+    <Content Include="Imagens\atualizar.png" />
+    <Content Include="Imagens\bkp.png" />
+    <Content Include="Imagens\branco.GIF" />
+    <Content Include="Imagens\Cloud_Arrow_Up.png" />
+    <Content Include="Imagens\Excel.gif" />
+    <Content Include="Imagens\folder.png" />
+    <Content Include="Imagens\ic_altera.gif" />
+    <Content Include="Imagens\ic_Fecha.gif" />
+    <Content Include="Imagens\ic_Local.gif" />
+    <Content Include="Imagens\ic_visualizar.gif" />
+    <Content Include="Imagens\Lupa.gif" />
+    <Content Include="Imagens\Lupa1.gif" />
+    <Content Include="Imagens\LupaBotao.png" />
+    <Content Include="Imagens\OPEN.BMP" />
+    <Content Include="Imagens\pasta.png" />
+    <Content Include="Imagens\porta.PNG" />
+    <Content Include="Imagens\Slogan_Agroserv.jpg" />
+    <Content Include="Imagens\Slogan_Agroserv1.jpg" />
+    <Content Include="Resources\Slogan_Agroserv.jpg" />
+    <Content Include="Resources\Slogan_Agroserv1.jpg" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\porta16.PNG" />
+    <None Include="Resources\cadeado.png" />
+    <None Include="Resources\2792_16x16.png" />
+    <None Include="Resources\4035_16x16.png" />
+    <None Include="Resources\778_16x16.png" />
+    <None Include="Resources\817_16x16.png" />
+    <None Include="Resources\6161_16x16.png" />
+    <None Include="Resources\6240_16x16.png" />
+    <None Include="Resources\7689_16x16.png" />
+    <None Include="Resources\7687_16x16.png" />
+    <None Include="Resources\7706_16x16.png" />
+    <None Include="Resources\7884_16x16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

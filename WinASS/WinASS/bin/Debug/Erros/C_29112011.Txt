@@ -1,0 +1,5 @@
+11:25:30 - Ultimo SQL: SELECT * FROM Ass_TipoServico WHERE Codigo='2'
+O operador '<>' não está definido para seqüência de caracteres "S" e tipo 'DBNull'.
+   em Microsoft.VisualBasic.CompilerServices.Operators.ConditionalCompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   em WinASS.TiposServicos_Implem.AlterarServico() na D:\VB.NET 2005\WinASS\WinASS\Cadastros_Ass\TiposServicos_Implem.vb:linha 359
+

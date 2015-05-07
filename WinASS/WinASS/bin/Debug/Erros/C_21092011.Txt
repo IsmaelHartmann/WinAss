@@ -1,0 +1,11 @@
+02:52:35 - Ultimo SQL: SELECT * FROM C_Parametros  
+Assistencia_Languiru
+   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em WinASS.Parametros_Implem.BuscarParametro() na D:\VB.NET 2005\WinASS\WinASS\Cadatros_Sis\Parametros_Implem.vb:linha 103
+
+02:55:09 - Ultimo SQL: SELECT Codigo, CAST(SUBSTRING(Matricula,1,LEN(Matricula)-1) + ' ' + Nome FROM Ass_Associados WHERE isnull(Data_Hora_Exclusao,'') = '' ORDER BY Nome 
+Sintaxe incorreta próxima à palavra-chave 'FROM'.
+
+
